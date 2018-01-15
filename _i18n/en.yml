@@ -14,18 +14,15 @@ pages:
     title4:
       part1: Lausanne 2020
       part2: See you in January 2020
-    title_shop: "On your marks, ready: "
-    txt_shop: " SHOP!"
-    text_shop: "All the Lausanne 2020 goodies are now available in our e–shop."
-    link_shop: "https://lausanne2020.many-ways.ch/en"
-    img_shop: "/images/home/EN_horizontal.png"
+    title_video: Olympic Day 2017
+    text_video: More
     news:
       title: News
       plus: read more
       autres: More news
     about:
       title: About
-      texte: From January 10 to 22 2020, Lausanne will be welcoming the third edition of the Winter Youth Olympic Games. Twenty-six years after obtaining the title of Olympic Capital, Lausanne will become an Olympic city by hosting the second largest multisports winter event after the Olympic Winter Games. This event will offer a unique and unforgettable Olympic experience to young athletes. The combination of culture, performance and education will give rise to a genuine celebration of sports!
+      texte: From January 10th to the 22nd 2020, Lausanne welcomes the third edition of the Winter Youth Olympic Games. 26 years after obtaining the title of Olympic Capital, Lausanne will become an Olympic city by hosting the second largest multisport winter event after the Winter Olympics. This event will offer a unique and unforgettable Olympic experience to young athletes. The combination of culture, performance and education will give birth to a genuine celebration of sports!
       more: More
     shop:
       title: All the Lausanne 2020 goodies available soon!
@@ -33,7 +30,7 @@ pages:
     socialwall:
       title: Social Media Feed
     newsletter:
-      part1: Be part of the Lausanne 2020 adventure and keep up with the latest news!
+      part1: Be part of the Lausanne 2020 adventure and receive the latest news!
       part2: Lausanne2020!
       button: Let’s go
       thanks: Thank you! Your submission has been received!
@@ -56,21 +53,21 @@ pages:
   about:
     title1: "The Youth Olympic Games : Compete, learn and share!"
     texte1: |
-            The Youth Olympic Games are an international Olympic sporting event of the highest level for athletes aged 15 to 18.
+            The Youth Olympic Games are an international Olympic sporting event of the highest level for athletes aged 15 to 18 years old.
             
-            They combine sports performance, culture and education in an authentic celebration of sport with a festive atmosphere. The aim is to encourage young people to adopt and represent the positive values of sport - respect for others, for themselves and for our environment; friendship between people and cultures; and, excellence in self-giving - and to become sports ambassadors throughout the world.
+            They combine sport performance, culture and education in an authentic celebration of sport with a festive atmosphere. The aim is to encourage youth to adopt and represent the positive values of sport - respect for others, for themselves and for our environment, friendship between people and cultures, excellence in self-giving, and to become sport ambassadors throughout the world.
             
             Through its mission, the Youth Olympic Games aspire to be a leading example of innovation for sporting events of the future.
     more: Learn more
-    title2: The Lausanne 2020 ambition
+    title2: The ambition of Lausanne 2020
     texte2: |
-            Lausanne 2020 is seeking to create a new sports platform for young people by actively involving them in the preparation and organisation of the event. 
-            This means engaging the local, regional and even national population around a unique, unifying occasion, that seeks to create a better world. 
-            Promoting and giving responsibility to young people by providing them with an opportunity to become ambassadors of positive sports values, acquire new talents and achieve self-accomplishment by becoming the leaders of tomorrow. All this while making the Youth Olympic Games a creative laboratory; an incubator of ideas from young people, for young people, drawing inspiration from Switzerland’s heritage and unique assets in education, culture and innovation.
+            Lausanne 2020 is the ambition of creating a new sports platform for youth by actively involving them in the event’s preparation and organization.
+            It’s a question of implicating the local, regional and even national populations around a unique and federative happening, that aims for a better world.
+            Valorize and give responsibility to youth by providing them an opportunity to become ambassadors of positive sports’ values, to acquire new talents and to reach self-accomplishment by becoming the tomorrow’s leaders. All this while making the Youth Olympic Games a creative laboratory; incubator of ideas of youth, for youth, while drawing inspiration from Switzerland’s heritage and unique assets in education, culture and innovation.
 
-            <span class="important-dates">The Lausanne 2020 Games will take place from 10 to 22 January 2020.</span>
+            <span class="important-dates">Lausanne 2020 will take place from January 10th to 22nd , 2020.</span>
     sports_title: The sport disciplines
-    sports_texte: "The sports programme of the 3<sup>rd</sup> edition of the Winter Youth Olympic Games is similar to the programme of the Olympic Winter Games with variations and innovations in the disciplines that are proposed by the International Federations. The sports on the programme are:"
+    sports_texte: "The sports programme of the 3rd edition of the Winter Youth Olympic Games is similar to the programme of the Winter Olympic Games with variations and innovations in the disciplines that are proposed by the International Federations. The sports on the programme are:"
     sports:
       biathlon:
         text: Biathlon
@@ -85,7 +82,7 @@ pages:
         text: Curling
         link: "https://www.olympic.org/curling"
       hockey-sur-glace:
-        text: Ice hockey
+        text: Ice Hockey
         link: "https://www.olympic.org/ice-hockey"
       luge:
         text: Luge
@@ -112,21 +109,21 @@ pages:
         text: Alpine skiing
         link: "https://www.olympic.org/alpine-skiing"
       ski-de-fond:
-        text: Cross-country skiing
+        text: Cross country skiing
         link: "https://www.olympic.org/cross-country-skiing"
       snowboard:
         text: Snowboard
         link: "https://www.olympic.org/snowboard"
       skimo:
-        text: Ski mountaineering
+        text: Ski Mountaineering
         link: "https://www.olympic.org/news/climbing-the-olympic-summit-everything-you-need-to-know-about-ski-mountaineering"
-    sports_new: For the first time in the history of the Olympic Games, ski mountaineering will be part of the Olympic programme !
+    sports_new: For the first time in the history of the Olympic Games, Ski Mountaineering will be part of the Olympic programme !
     sports_fin: Discover the venues <b><a href="venues" class="link_site">here</a></b>
     facts:
       title: Lausanne 2020 in numbers
       fact1: 
         number: "1’880" 
-        text: Athletes aged between 15 and 18 years
+        text: Athletes between 15 and 18 years
       fact2: 
         number: "+70" 
         text: Nations
@@ -134,7 +131,7 @@ pages:
         number: "8 sports"
         text: 16 disciplines and 81 events
       fact4: 
-        number: "+3,000" 
+        number: "+3000" 
         text: Volunteers
       fact5: 
         number: GENDER 
@@ -143,30 +140,30 @@ pages:
     heritage:
       title1: Lausanne 2020’s legacy
       txt1: |
-            The Youth Olympic Games are a genuine catalyst of projects and provide a wonderful opportunity to invest sustainably and intelligently in sport, education, culture and infrastructure. They will leave a positive legacy to the city of Lausanne, the canton of Vaud and Swiss sport generally.
+            The Youth Olympic Games is a genuine catalyst of projects and provides a wonderful opportunity to invest sustainably and intelligently in sports, education, culture and infrastructures. It will leave a positive legacy to the city of Lausanne, the canton of Vaud and Swiss sports.
       txt2: |
-            One of the key highlights of Lausanne 2020’s heritage is the accelerated construction of the student accommodation VORTEX, which will house the Olympic Village during the Games. This building will subsequently accommodate 1,200 university students and academic guests, meeting a longtime community need.
+            One of the key highlights of Lausanne 2020’s heritage is the accelerated construction of the student accommodation VORTEX, which will house the Olympic Village during the Games. This building will accommodate 1,200 university students and academic guests, answering a longtime community need.
       webcam2: |
-               You can follow the development of the VORTEX live by consulting the construction site webcam. To do so,
-      webcam2link: click here.
-      title2: Sporting legacy
+               You can follow the development of the Vortex live by consulting the webcam of the construction site. To do so,
+      webcam2link: please click here.
+      title2: Athletic legacy
       txt3: |
-            Another construction project that will become a reality thanks to the Youth Olympic Games is the Espace Malley, which encompasses several sports facilities, one of which is an ice rink (capacity of 9,700 seats), that will be accessible to young athletes. This project solves the problem of a genuine lack of sports infrastructure in the French-speaking part of Switzerland.
+            Another construction project that will see the day for the Youth Olympic Games is Espace Malley, which encompasses several athletic installations, one of which is an ice rink (capacity of 9,700 seats), that will be available to young athletes. This project solves the problem of a genuine lack of sports infrastructures in the French-speaking part of Switzerland.
       webcam1: |
-               You can follow the development of the Espace Malley live, or watch a speed-up version of all the construction work so far, by consulting the construction site webcams. To do so, 
-      webcam1link: click here.
+               You can follow the development of the Espace Malley live, or watch the integrity of the construction works accelerated until today, by consulting the webcams of the construction site. To do so, 
+      webcam1link: please click here.
       txt4: |
-            Besides these two major construction projects, Lausanne 2020 will support the following projects:  
-      list1: ' -  the creation of training centres for the future athletes from the French-speaking part of Switzerland;'
-      list2: ' -	an agreement with the Department of the French Jura for the free use of sports facilities for 20 years;'
-      list3: ' -	support for creating a new regional discipline – Short Track;'
-      list4: ' -	local training on the sports management of major events;'
+            Besides these two major constructions, Lausanne 2020 will promote the following projects:  
+      list1: ' -  the creation of training centers for the future athletes of the French-speaking part of Switzerland;'
+      list2: ' -	an agreement with the department of French Jura for free use of athletic infrastructures during 20 years;'
+      list3: ' -	usupport for creating a new regional sport – Short Track;'
+      list4: ' -	local training dedicated to sports management of major events;'
       list5: ' -	development of a new generation of sports managers.'
-      list6: ' And, last but not least, tangible projects underway to promote winter sports for everyone.'
+      list6: ' And last but not least, tangible projects underway to promote winter sports for everyone.'
       title3: Educational legacy
       txt6: |
-            Lausanne 2020’s educational legacy will be a combination of several elements. First, there are the strong partnerships with University of Lausanne (UNIL), the Swiss Federal Institute of Technology Lausanne (EPFL) and Swiss Hotel Management School in Lausanne (EHL). Second is the identification and development of local young people's existing skills. And third is the creation of new expertise within this same population. To make this happen, an opportunity has been given to young people to involve themselves and take on organisational responsibilities in the Youth Olympic Games. These learned skills will then be available for organising future international sports events that will continue to grow sustainably within the region.
-      txt7: "And it doesn’t stop here! This legacy will even reach future generations, thanks to the connections established with children in local schools."
+            Lausanne 2020’s educational legacy will be a combination of several elements. First, there are the strong partnerships with University of Lausanne (UNIL), Federal Polytechnical School of Lausanne (EPFL) and Swiss Hotel Management School in Lausanne (EHL). Second is the identification and the development of local youth’s existing skills. And third is the creation of new expertise within this same population. To make this happen, an opportunity has been given to youth to invest themselves and take on organizational responsibilities in the Youth Olympic Games. These learned skills will be available for organizing future international sports events that will continue to burgeon sustainably in the region.
+      txt7: "And it doesn’t stop here! This transmission will touch younger generations, thanks to connections established with children in local schools."
   contact:
     title: Contact
     form:
@@ -184,21 +181,9 @@ pages:
         placeholder: Enter your message here
       envoyer: Send
       thanks: Thank you very much for your request. We will reply as soon as possible!
-  venues:
-    title: Non-competitions venues
-    subtitle1: Youth Olympic Village
-    text1: Before becoming a student residence in autumn 2020, the Vortex will host, in January of the same year, the athletes and National Olympic Committees of the Lausanne 2020 Youth Olympic Games. This elliptical building is located in the heart of the campus of the University of Lausanne, institutional partner of Lausanne 2020.
-    link1: https://www.cpev.ch/immobilier/vortex
-    textlink1: More informations and webcams
-    subtitle2: Medal Plaza
-    text2: The medal ceremony will take place in the Quartier du Flon, a lively place in the heart of Lausanne.
-    link2: https://flon.ch/en/
-    textlink2: Learn more
 footer:
   link:
     tokyo: "https://tokyo2020.jp/en/"
     beijing: "http://www.beijing2022.cn/en/"
     buenos: "http://www.buenosaires2018.com/en/"
     pyeongChang: "https://www.pyeongchang2018.com/en/index"
-    paris: "http://paris2024.org/en"
-    losAngeles: "https://www.olympic.org/la-2028"

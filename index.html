@@ -9,13 +9,19 @@ layout: default
         <h1 class="the_claim">{% t pages.index.title4.part1 %}<br/><span class="accent">{% t pages.index.title4.part2 %}</span></h1>
     </div>
 </div>
-<div class="shop_section">
+<div class="video_section">
     <div class="container">
-        <h1 class="h1_shop_section">{% t pages.index.title_shop %} &nbsp; <a rel="noopener noreferrer" href="{% t pages.index.link_shop %}"> {% t pages.index.txt_shop %} </a> </h1>
-        <h2 class="h2_shop_section">{% t pages.index.text_shop %}</h2>
-        <a rel="noopener noreferrer" href="{% t pages.index.link_shop %}">
-            <img src="{% t pages.index.img_shop %}" alt="Shop!" width="70%" style="margin-bottom: 50px;">
-        </a>
+        <h1 class="h1_video_section">{% t pages.index.title_video %}</h1>
+        <video class="home_video" width="70%" controls poster="/images/home/video.jpg">
+            <source src="/videos/WEB_lausanne2020.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <div class="about-more-button" id="more_video">
+            {% if site.lang == "fr" %} <a class="about-more-btn" id="text_video" target="_blank" rel="noopener noreferrer" href="https://www.lausanne2020.com/fr/news/the-lausanne-2020-generation">{% t pages.index.text_video %}</a>
+            {% elsif site.lang == "de" %} <a class="about-more-btn" id="text_video" target="_blank" rel="noopener noreferrer" href="https://www.lausanne2020.com/de/news/the-lausanne-2020-generation">{% t pages.index.text_video %}</a>
+            {% elsif site.lang == "it" %} <a class="about-more-btn" id="text_video" target="_blank" rel="noopener noreferrer" href="https://www.lausanne2020.com/it/news/the-lausanne-2020-generation">{% t pages.index.text_video %}</a>
+            {% else %} <a class="about-more-btn" id="text_video" target="_blank" rel="noopener noreferrer" href="https://www.lausanne2020.com/news/the-lausanne-2020-generation">{% t pages.index.text_video %}</a> {% endif %}
+        </div>
     </div>
 </div>
 <div class="news_section">
@@ -80,6 +86,19 @@ layout: default
         </div>
     </div>
 </div>
+<div class="marchandising_section">
+    <div class="container">
+        <div class="row flex vcenter">
+            <div class="marchandising_col_1 col-md-6 fade-in-module">
+                <h1 class="shop_cta">{% t pages.index.shop.title %}</h1>
+            </div>
+            <div class="col-md-6 fade-in-module">
+                <img sizes="(max-width: 479px) 96vw, (max-width: 767px) 97vw, (max-width: 816px) 98vw, (max-width: 991px) 800px, 620px" src="/images/home/lausanne_tshirt.png"
+                    srcset="/images/home/lausanne_tshirt-p-500x338.png 500w, /images/home/lausanne_tshirt.png 800w">
+            </div>
+        </div>
+    </div>
+</div>
 <div class="social_feed_section social_wall">
     <div class='container'>
         <h1 class="h1_big_news" style="color:white;">{% t pages.index.socialwall.title %}</h1>
@@ -110,7 +129,7 @@ layout: default
                 <input data-name="Lang" id="lang" maxlength="2" name="lang" value="{{ site.lang }}" required="required" type="hidden">
             </div>
             <div class="newsletter-form-button">
-                <input class="newsletter_cta_btn btn" data-wait="Please wait..." type="submit" style="background-color: #017ec5 !important;" value="{% t pages.index.newsletter.button %}">
+                <input class="newsletter_cta_btn btn" data-wait="Please wait..." type="submit" value="{% t pages.index.newsletter.button %}">
             </div>
         </form>
         <div class="success form-done">
