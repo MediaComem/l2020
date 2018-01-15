@@ -14,8 +14,11 @@ pages:
     title4:
       part1: Lausanne 2020
       part2: Wir sehen uns im Januar 2020
-    title_video: Olympic Day 2017
-    text_video: Mehr Infos
+    title_shop: "Auf die Plätze, fertig : "
+    txt_shop: " SHOPPEN !"
+    text_shop: "Alle Lausanne 2020 Fan-Artikel sind ab sofort in unserem E–shop erhältlich."
+    link_shop: "https://lausanne2020.many-ways.ch/de/"
+    img_shop:  "/images/home/DE_horizontal.png"
     news:
       title: News
       plus: weiterlesen
@@ -57,7 +60,7 @@ pages:
 
             Sie verbinden sportliche Höchstleistungen mit Kultur und Bildung zu einem einzigartigen Sportfest und haben zum Ziel, die Jugend zu ermutigen, die positiven Werte des Sports anzunehmen und zu leben. Dies sind der Respekt gegenüber anderen, sich selbst und unserer Umwelt, die Freundschaft zwischen Völkern und Kulturen und sportliche Höchstleistung. Weiter sollen die Jugendlichen Sportbotschafter in der ganzen Welt werden.
             
-            Die Olympischen Jugendspiele wollen ein führendes Beispiel der Innovation für die Sportanlässe der Zukunft zu sein. 
+            Die Olympischen Jugendspiele sind ein führendes Beispiel der Innovation für die Sportanlässe der Zukunft. 
     more: Mehr dazu
     title2: Die Ambition von Lausanne 2020
     texte2: |
@@ -181,9 +184,21 @@ pages:
         placeholder: gib hier deine Nachricht ein
       envoyer: Senden
       thanks: Vielen Dank für deine Anfrage. Wir werden dir so schnell wie möglich antworten!
+  venues:
+    title: Plätze ohne Wettkämpfe
+    subtitle1: Olympisches Dorf der Jugend
+    text1: Bevor im Herbst des Jahres 2020 ein Studentenwohnheim eröffnet wird, wird der Vortex im Januar desselben Jahres die Athleten und die nationalen olympischen Komitees der Olympischen Jugendspiele Lausanne 2020 empfangen. Ein elliptisches Gebäude im Herzen des Campus der Universität Lausanne, institutioneller Partner von Lausanne 2020.
+    link1: https://www.cpev.ch/immobilier/vortex
+    textlink1: Mehr Infos und webcams
+    subtitle2: Platz der Siegerehrung
+    text2: Die Medaillenzeremonie findet im Stadtteil Flon statt, einem lebhaften Ort im Herzen von Lausanne.
+    link2: https://flon.ch/de/
+    textlink2: Mehr erfahren
 footer:
   link:
     tokyo: "https://tokyo2020.jp/en/"
     beijing: "http://www.beijing2022.cn/en/"
     buenos: "http://www.buenosaires2018.com/en/"
     pyeongChang: "https://www.pyeongchang2018.com/en/index"
+    paris: "http://paris2024.org/en"
+    losAngeles: "https://www.olympic.org/la-2028"

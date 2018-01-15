@@ -1,46 +1,88 @@
 html .hero {
-    background-image: url('../images/home/lausanne_overview4.jpg');
+    background-image: url('../images/home/2YTG-2.png');
     background-size: cover;
     height: 900px;
     @media (max-width: 1921px) {
         height: 900px;
     } // Width of image
     @media (max-width: 1651px) {
-        height: 900px;
+        height: 800px;
     }
-    @media (max-width: 1450px) {
-        height: 900px;
+    @media (max-width: 1501px) {
+        height: 700px;
+        .the_claim {
+            font-size: 30px;
+            line-height: 40px;
+            font-weight: 600;
+        }
     }
     @media (max-width: 1250px) {
-        height: 700px;
+        height: 600px;
+        margin-top: 50px;
     }
-    @media (max-width: 1050px) {
-        height: 700px;
+    @media (max-width: 1155px) {
+        height: 500px;
+        margin-top:100px;
     }
-    @media (max-width: 850px) {
-        height: 700px;
-    }
-    @media (max-width: 650px) {
+    @media (max-width: 990px) {
         height: 400px;
+        margin-top:150px;
     }
-    @media (max-width: 479px) {
+    @media (max-width: 830px) {
         height: 400px;
+        margin-top:150px;
+        .the_claim {
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 600;
+            padding-left:30px;
+        }
     }
-    @media (max-width: 450px) {
-        height: 400px;
+    @media (max-width: 767px) {
+        height:300px;
+        margin-top: 80px;
+    }
+    @media (max-width: 680px) {
+        height: 300px;
+        margin-top: 80px;
+    }
+    @media (max-width: 550px) {
+        height: 200px;
+        margin-top: 80px;
+        .the_claim {
+            font-size: 10px;
+            line-height: 20px;
+            font-weight: 600;
+            padding-left:30px;
+            padding-top:10px;
+        }
     }
     .container {
-        padding: 305px 0 0 0;
+        padding: 150px 0 0 0;
+        @media (max-width: 1155px) {
+            padding-top: 50px;
+        }
         @media (max-width: 650px) {
-            padding-top: 165px;
+            padding-top: 20px;
         }
     }
 }
 
-.video_section {
+.shop_section {
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+}
+
+.h1_shop_section {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.h2_shop_section {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 24px;
 }
 
 #text_video {
@@ -54,9 +96,9 @@ html .hero {
     position: absolute;
     color: #FFFFFF;
     width: inherit;
-    font-size: 81px;
-    line-height: 90px;
-    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 600;
     text-transform: uppercase;
     opacity: 0;
     -webkit-animation-duration: 2s;
@@ -67,13 +109,6 @@ html .hero {
     animation-fill-mode: both;
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
-}
-
-@media (max-width: 1350px) {
-    .the_claim {
-        font-size: 30px;
-        line-height: 35px;
-    }
 }
 
 .about_yog_section {
@@ -110,6 +145,10 @@ html .hero {
         max-width: 100%;
         padding-right: 0;
     }
+}
+
+.newsletter-cta-btn.btn {
+    background-color: #017ec5;
 }
 
 .newsletter_cta_form {
