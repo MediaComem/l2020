@@ -19,6 +19,15 @@
 }
 .countdown_container {
     transform: scale(0.54) !important;
+    @media (max-width: 600px) {
+        transform: scale(0.4) !important;
+    }
+    @media (max-width: 450px) {
+        transform: scale(0.35) !important;
+    }
+    @media (max-width: 380px) {
+        transform: scale(0.3) !important;
+    }
 }
 
 #ad {
