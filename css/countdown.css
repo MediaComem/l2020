@@ -18,17 +18,24 @@
     height: 123px;    
 }
 .countdown_container {
-    transform: scale(0.54) !important;
-    @media (max-width: 600px) {
+    transform: scale(0.54);
+}
+@media (max-width: 600px) {
+    .countdown_container {
         transform: scale(0.4) !important;
     }
-    @media (max-width: 450px) {
+}
+@media (max-width: 450px) {
+    .countdown_container {
         transform: scale(0.35) !important;
     }
-    @media (max-width: 380px) {
+}
+@media (max-width: 380px) {
+    .countdown_container {
         transform: scale(0.3) !important;
     }
 }
+
 
 #ad {
     position: relative;
