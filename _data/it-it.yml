@@ -30,6 +30,8 @@ nav:
     - title: "Contatto"
       path: "/it/contact"
 pages:
+  index:
+    volunteers_txt: "Test"
   news:
     archive_link: Archivio
   sports:
