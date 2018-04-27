@@ -29,7 +29,7 @@
 	    jQuery('.border').css('height',newHeight);
 	}
 
-    window.addEventListener("resize", windowResize);
+    //window.addEventListener("resize", windowResize);
     window.addEventListener("load", windowResize);
 	$.fn.countdown = function(custom_options)
 	{
