@@ -36,6 +36,8 @@
 #logos {
     @media (max-width: 767px) {
 	margin-top: 20px !important;
+	height: auto !important;
+    	max-width: 100% !important;
     }
 }
 
