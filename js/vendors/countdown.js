@@ -22,10 +22,10 @@
 	    var x = (wWidth - adWidth)/scale;
 	    var y = (wHeight - adHeight)/scale;
 	    var newHeight = scale * adHeight;
-	    jQuery('#countdown_container_tag').css('transform', 'scale(' + scale + ')');
+	    /*jQuery('#countdown_container_tag').css('transform', 'scale(' + scale + ')');
 	    jQuery('#countdown_container_tag').css('-o-transform', 'scale(' + scale + ')');
 	    jQuery('#countdown_container_tag').css('-moz-transform', 'scale(' + scale + ')');
-	    jQuery('#countdown_container_tag').css('-webkit-transform', 'scale(' + scale + ')');
+	    jQuery('#countdown_container_tag').css('-webkit-transform', 'scale(' + scale + ')');*/
 	    jQuery('.border').css('height',newHeight);
 	}
 
