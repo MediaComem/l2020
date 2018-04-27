@@ -30,6 +30,8 @@ nav:
     - title: "Kontakt"
       path: "/de/contact"
 pages:
+  index:
+    volunteers_txt: "Test"
   news:
     archive_link: Archiv
   sports:
