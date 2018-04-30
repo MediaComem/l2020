@@ -23,6 +23,11 @@
     text-align: right;
     padding-left: 0;
     padding-right: 0;
+    @media (max-width: 767px) {
+	width: 100%;
+        margin-left: -28px;
+        min-width: 200px;
+    }
 }
 
 .logo{
