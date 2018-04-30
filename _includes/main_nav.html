@@ -1,115 +1,120 @@
 {% assign nav = site.data[site.lang].nav.header %}
 
-<nav id="mainNav" class="navbar navbar-custom navbar-fixed-top">
+<nav id="mainNav" class="navbar navbar-custom navbar-fixed-top" style="padding-bottom: 10px; margin-bottom: 0;">
     <div class="container" style="padding-right: 0;">
-      <a class="nav-brand" href="{{nav[0].path}}" style="width:50%;">
-        <img class="logo" src="/images/layout/Lausanne2020-Emblem.png" />
-      </a>
-
-      <div id="ad" style="width:50%">
-        <div id="countdown_container_tag" class="countdown_container">
-          <div class="logo">
-            {% if site.lang == "fr-fr" %} 
-	      <img src="/assets/omega_countdown/official-timekeeper-omega-fr.jpg">
-              <!-- <img class="retina" src="/assets/omega_countdown/official-timekeeper-omega.svg"> -->
-	    {% endif %}
-            {% if site.lang == "de-de" %} 
-	      <img src="/assets/omega_countdown/official-timekeeper-omega-de.jpg">
-              <!-- <img class="retina" src="/assets/omega_countdown/official-timekeeper-omega.svg"> -->
-	    {% endif %}
-            {% if site.lang == "en-gb" or site.lang == "it-it" or site.lang == "es-es" %} 
-	      <img src="/assets/omega_countdown/official-timekeeper-omega.jpg">
-              <!-- <img class="retina" src="/assets/omega_countdown/official-timekeeper-omega.svg"> -->
-	    {% endif %}
-          </div>
+        <div class="col-md-3 col-sm-6 col-xs-6" id="countdown">
+            <div id="countdown_container_tag" class="countdown_container" style="transform: scale(0.54);">
+                <div class="logo">
+                    <img src="/assets/omega_countdown/official-timekeeper-omega-fr.jpg">
+                    <!-- <img class="retina" src="/assets/omega_countdown/official-timekeeper-omega.svg"> -->
+                </div>
 			
-          <div id="fr" class="countdown">
-            <img src="/assets/omega_countdown/line.png">
-            <div class="countdown_numbers">
-              <div class="days cd_item"><span class="days_label cd_label"></span><span class="days_remaining cd_remain">00</span></div>
-              <div class="hours cd_item"><span class="hours_label cd_label"></span><span class="hours_remaining cd_remain">00</span></div>
-              <div class="minutes cd_item"><span class="minutes_label cd_label"></span><span class="minutes_remaining cd_remain">00</span></div>
-              <div class="seconds cd_item cd_item_last"><span class="seconds_label cd_label"></span><span class="seconds_remaining cd_remain">00</span></div>
+                <div id="fr" class="countdown">
+                    <img src="/assets/omega_countdown/line.png" style="border: 1px solid #9f9f9f;">
+          	    <div class="countdown_numbers">
+             		<div class="days cd_item"><span class="days_label cd_label"></span><span class="days_remaining cd_remain">00</span></div>
+            		<div class="hours cd_item"><span class="hours_label cd_label"></span><span class="hours_remaining cd_remain">00</span></div>
+            		<div class="minutes cd_item"><span class="minutes_label cd_label"></span><span class="minutes_remaining cd_remain">00</span></div>
+            		<div class="seconds cd_item cd_item_last"><span class="seconds_label cd_label"></span><span class="seconds_remaining cd_remain">00</span></div>
+          	    </div>
+          	    <p></p>
+        	</div>
+
+        	<div class="clock">
+          	    <div class="hours cd_item"><span class="clock_hours clock_digit">00</span></div>
+            	    <div class="inter">:</div>
+            	    <div class="minutes cd_item"><span class="clock_minutes clock_digit">00</span></div>
+            	    <div class="inter">:</div>
+            	    <div class="seconds cd_item cd_item_last"><span class="clock_seconds clock_digit">00</span></div>
+          	</div>
+	
             </div>
-            <p></p>
-          </div>
+            <a class="omega_link" target="_blank" href="https://www.omegawatches.com"></a>
+      	</div>
 
-          <div class="clock">
-            <div class="hours cd_item"><span class="clock_hours clock_digit">00</span></div>
-            <div class="inter">:</div>
-            <div class="minutes cd_item"><span class="clock_minutes clock_digit">00</span></div>
-            <div class="inter">:</div>
-            <div class="seconds cd_item cd_item_last"><span class="clock_seconds clock_digit">00</span></div>
-          </div>
-
-	        <div id="border" class="border"></div>	
-        </div>
-        <a class="omega_link" target="_blank" href="https://www.omegawatches.com"></a>
-      </div>  
-      <div class="socials slidedown smartphone col-lg-4 col-md-4">
-        <div class="links_social">
-          <a class="socials_links" href="https://www.instagram.com/lausanne2020" target="_blank" rel="noopener">
-            <img height="30" src="/images/layout/Instagram-logo.png">
-          </a>
-          <a class="socials_links" href="https://www.facebook.com/lausanne2020/" target="_blank" rel="noopener">
-            <img height="30" src="/images/layout/facebook-icon.png">
-          </a>
-          <a class="socials_links" href="https://twitter.com/lausanne2020" target="_blank" rel="noopener">
-            <img height="24" src="/images/layout/twitter-icon.svg">
-          </a>
-          <a class="socials_links" href="https://www.youtube.com/channel/UCcEgzQvjtLp7UCdsXfuHbyQ" target="_blank" rel="noopener">
-            <img height="24" src="/images/layout/YouTube-icon.png">
-          </a>
-        </div>    
-      </div>
-      <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar">
-              <span class="sr-only">Toggle navigation</span><div class="icon-nav"></div><i class="fa fa-bars"></i>
-          </button>
-      </div>
-      <div class="socials slidedown desktop col-lg-4 col-md-4">
-	  <div class="links_social">
-	    <a class="socials_links instagram" href="https://www.instagram.com/lausanne2020" target="_blank" rel="noopener">
-	      <img height="30" src="/images/layout/Instagram-logo.png">
-	    </a>
-	    <a class="socials_links facebook" href="https://www.facebook.com/lausanne2020/" target="_blank" rel="noopener">
-	      <img height="30" src="/images/layout/facebook-icon.png">
-	    </a>
-	    <a class="socials_links twitter" href="https://twitter.com/lausanne2020" target="_blank" rel="noopener">
-	      <img height="24" src="/images/layout/twitter-icon.svg">
-	    </a>
-	    <a class="socials_links youtube" href="https://www.youtube.com/channel/UCcEgzQvjtLp7UCdsXfuHbyQ" target="_blank" rel="noopener">
-	      <img height="24" src="/images/layout/YouTube-icon.png">
-	    </a>
-	  </div>    
-      </div>
-      <div class="navbar-collapse collapse col-lg-8 col-md-8" id="main-navbar">
-          <div class="nav navbar-nav navbar-right" style="float: right; margin-right: 0;">
-            {% for link in nav %}
-
-              {% capture current_base_page %}{{ site.baseurl }}{{ page.url | split:'.html' | first }}{% endcapture %}
-              {% capture folder_path %}{{ link.path }}/{% endcapture %}
-
-              {% if current_base_page == link.path or current_base_page == folder_path %}
-                <a class="nav_link w--current" href="{{link.path}}">{{link.title}}</a>
-              {% else %}
-                <a class="nav_link" href="{{link.path}}">{{link.title}}</a>
-              {% endif %}
-
-            {% endfor %}
-
-            {% capture current_page %}{{ page.url | split:'.html' | first }}{% endcapture %}
-
-            <div class="nav_lang">
-            {% for lang in site.languages %}
-              {% if site.langShort == lang[1].path %}
-                <a href="/{{ lang[1].path }}" lang="{{ lang[1].path }}" class="language accent nav_link">{{ lang[1].path }}</a>
-              {% else %}
-                <a href="/{{ lang[1].path }}" lang="{{ lang[1].path }}" class="language nav_link">{{ lang[1].path }}</a>
-              {% endif %}
-            {% endfor %}
+	    
+        <div class="col-md-4 col-md-offset-1 col-sm-6 col-xs-6" id="logo">
+            <a class="nav-brand" href="{{nav[0].path}}">
+            	<img class="logo" id="logos" src="/images/layout/Lausanne2020-Emblem.png" />
+            </a>
+      	</div> 
+	
+	    
+      	<div class="socials slidedown smartphone col-md-3 col-md-offset-1">
+            <div class="links_social">
+          	<a class="socials_links" href="https://www.instagram.com/lausanne2020" target="_blank" rel="noopener">
+            	    <img height="30" src="/images/layout/Instagram-logo.png">
+          	</a>
+          	<a class="socials_links" href="https://www.facebook.com/lausanne2020/" target="_blank" rel="noopener">
+            	    <img height="30" src="/images/layout/facebook-icon.png">
+          	</a>
+          	<a class="socials_links" href="https://twitter.com/lausanne2020" target="_blank" rel="noopener">
+            	    <img height="24" src="/images/layout/twitter-icon.svg">
+          	</a>
+          	<a class="socials_links" href="https://www.youtube.com/channel/UCcEgzQvjtLp7UCdsXfuHbyQ" target="_blank" rel="noopener">
+            	    <img height="24" src="/images/layout/YouTube-icon.png">
+          	</a>
             </div>
-          </div> 
-      </div>
+	    <div class="nav_lang col-md-12 col-sm-6 col-xs-6">
+	        {% for lang in site.languages %}
+		    {% if site.langShort == lang[1].path %}
+		        <a href="/{{ lang[1].path }}" lang="{{ lang[1].path }}" class="language accent nav_link"  style="padding-left: 20px; padding-right: 0px; padding-top: 10px; padding-bottom: 10px;">{{ lang[1].path }}</a>
+		    {% else %}
+		    	<a href="/{{ lang[1].path }}" lang="{{ lang[1].path }}" class="language nav_link"  style="padding-left: 20px; padding-right: 0px; padding-top: 10px; padding-bottom: 10px;">{{ lang[1].path }}</a>
+		    {% endif %}
+	    	{% endfor %}
+	    </div>
+      	</div>
+      	
+	<div class="socials slidedown desktop col-md-3 col-md-offset-1 col-sm-12 col-xs-12" style="margin-top: 0; height: 100px;">
+	    <div class="links_social col-md-12 col-sm-6 col-xs-6" style="padding-top: 15px; padding-bottom: 10px;">
+	    	<a class="socials_links instagram" href="https://www.instagram.com/lausanne2020" target="_blank" rel="noopener">
+	      	    <img height="30" src="/images/layout/Instagram-logo.png">
+	    	</a>
+	    	<a class="socials_links facebook" href="https://www.facebook.com/lausanne2020/" target="_blank" rel="noopener">
+	      	    <img height="30" src="/images/layout/facebook-icon.png">
+	    	</a>
+	    	<a class="socials_links twitter" href="https://twitter.com/lausanne2020" target="_blank" rel="noopener">
+	      	    <img height="24" src="/images/layout/twitter-icon.svg">
+	    	</a>
+	    	<a class="socials_links youtube" href="https://www.youtube.com/channel/UCcEgzQvjtLp7UCdsXfuHbyQ" target="_blank" rel="noopener">
+	      	    <img height="24" src="/images/layout/YouTube-icon.png">
+	    	</a>
+	    </div>  
+	    <div class="nav_lang col-md-12 col-sm-6 col-xs-6">
+	        {% for lang in site.languages %}
+		    {% if site.langShort == lang[1].path %}
+		        <a href="/{{ lang[1].path }}" lang="{{ lang[1].path }}" class="language accent nav_link"  style="padding-left: 20px; padding-right: 0px; padding-top: 10px; padding-bottom: 10px;">{{ lang[1].path }}</a>
+		    {% else %}
+		    	<a href="/{{ lang[1].path }}" lang="{{ lang[1].path }}" class="language nav_link"  style="padding-left: 20px; padding-right: 0px; padding-top: 10px; padding-bottom: 10px;">{{ lang[1].path }}</a>
+		    {% endif %}
+	    	{% endfor %}
+	    </div>
+      	</div>    
+	    
+	<div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar">
+              	<span class="sr-only">Toggle navigation</span><div class="icon-nav"></div><i class="fa fa-bars"></i>
+            </button>
+      	</div>
+      	    
+	<div class="navbar-collapse collapse col-md-12" id="main-navbar" style="width: 100% !important; text-align: center !important;">
+             <div class="nav navbar-nav justify-content-center" style="float: none !important;">	  
+             	{% for link in nav %}	             	
+ 	 
+               	    {% capture current_base_page %}{{ site.baseurl }}{{ page.url | split:'.html' | first }}{% endcapture %}	               	    
+               	    {% capture folder_path %}{{ link.path }}/{% endcapture %}	               	    
+ 	 
+               	    {% if current_base_page == link.path or current_base_page == folder_path %}	               	    
+                     	<a class="nav_link w--current" href="{{link.path}}">{{link.title}}</a>	                     
+               	    {% else %}	               	    
+                     	<a class="nav_link" href="{{link.path}}">{{link.title}}</a>	                     
+               	    {% endif %}	               	   
+ 	 
+             	{% endfor %}	            
+ 	 
+                 {% capture current_page %}{{ page.url | split:'.html' | first }}{% endcapture %}	                
+ 	    </div> 	 	   
+      	</div>
     </div>
-  </nav>
+</nav>

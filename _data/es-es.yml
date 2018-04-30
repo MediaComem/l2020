@@ -5,7 +5,9 @@ nav:
     - title: "Sitios"
       path: "/es/venues"
     - title: "Deportes"
-      path: "/es/sports"  
+      path: "/es/sports"
+    - title: "Shop"
+      path: "https://lausanne2020.many-ways.ch/en/"
     - title: "Acerca de"
       path: "/es/about"
   footer:
@@ -19,9 +21,13 @@ nav:
       path: "/es/about"
     - title: "Empleo"
       path: "/es/jobs"
+    - title: "Shop"
+      path: "https://lausanne2020.many-ways.ch/en/"
     - title: "Contacto"
       path: "/es/contact"
 pages:
+  index:
+    volunteers_txt: "Test"
   news:
     archive_link: Archivo
   sports:
