@@ -143,7 +143,7 @@
 	                    console.log("could not load timestamp for countdown!");
 	                },
 	                success: function() {
-	                    target = new Date(data.targetDate).getTime();
+	                    target = new Date(1578601200).getTime();
 						update_remaining();
 	                    setInterval(update_remaining, 1000);
 	                }
