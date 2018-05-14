@@ -1,10 +1,146 @@
 ---
 layout: default
 ---
-
-{% assign document = site.prismicData.single.page_media%}
-
-<div class="media_section">
+{% assign about_data = site.data[site.lang].pages.about %}
+{% assign document = site.prismicData.single.page_about%}
+<div class="about_yog about_yog_1 ">
+  <div class="container fade-in-module">
+    <h1>{{ document.fragments.section_1_title.text }}</h1>
+    <div class="about-content flex vcenter">
+      <div class="about-text">
+        <img src="{{ document.fragments.section_1_image.url }}" alt="{{ document.fragments.section_1_image.alt }}">
+      </div>
+      <div class="about-image">
+        {{ document.fragments.section_1_content.html }}
+        <div class="about-more-button"><a class="about-more-btn" target="_blank" rel="noopener noreferrer" href="{{ document.fragments.section_1_link_more.url }}">{{ document.fragments.section_1_link_more_text.text }}</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="about_yog about_yog_2">
+  <div class="container fade-in-module">
+    <h1>{{ document.fragments.section_2_title.text }}</h1>
+    <div class="about-content flex vcenter">
+      <div class="about-text">
+        {{ document.fragments.section_2_content.html }}
+      </div>
+      <div class="about-image">
+        <span class="helper"></span><img src="{{ document.fragments.section_2_image.url }}" alt="{{ document.fragments.section_2_image.url }}">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="facts">
   <div class="container">
+    <h1>{{ about_data.facts.title }}</h1>
+      <div class="facts-entities flex">
+        <div class="fact">
+          <div class="wrap_facts">
+            <h1 class="h1_facts" data-ix="fadeindown">{{ about_data.facts.fact1.number }}</h1>
+            <img class="img_facts" data-ix="fadeinscaleup" sizes="130px" src="/images/about/facts/Athlete.png" width="130">
+            <h1 class="h2_facts" data-ix="fadeintop">{{ about_data.facts.fact1.text }}</h1>
+          </div>
+        </div>
+        <div class="fact">
+          <div class="wrap_facts">
+            <h1 class="h1_facts" data-ix="fadeindown">{{ about_data.facts.fact2.number }}</h1>
+            <img class="img_facts" data-ix="fadeinscaleup" sizes="130px" src="/images/about/facts/Nation.png" width="130">
+            <h1 class="h2_facts" data-ix="fadeintop">{{ about_data.facts.fact2.text }}</h1>
+          </div>
+        </div>
+        <div class="fact">
+          <div class="wrap_facts">
+            <h1 class="h1_facts" data-ix="fadeindown">{{ about_data.facts.fact3.number }}</h1>
+            <img class="img_facts" data-ix="fadeinscaleup" sizes="130px" src="/images/about/facts/Medal.png" width="130">
+            <h1 class="h2_facts" data-ix="fadeintop">{{ about_data.facts.fact3.text }}</h1>
+          </div>
+        </div>
+        <div class="fact">
+          <div class="wrap_facts">
+            <h1 class="h1_facts" data-ix="fadeindown">{{ about_data.facts.fact4.number }}</h1>
+            <img class="img_facts" data-ix="fadeinscaleup" sizes="130px" src="/images/about/facts/Volunteer.png" width="130">
+            <h1 class="h2_facts" data-ix="fadeintop">{{ about_data.facts.fact4.text }}</h1>
+          </div>
+        </div>
+        <div class="fact">
+          <div class="wrap_facts">
+            <h1 class="h1_facts" data-ix="fadeindown">{{ about_data.facts.fact5.number }}</h1>
+            <img class="img_facts" data-ix="fadeinscaleup" sizes="130px" src="/images/about/facts/Equality.png" width="130">
+            <h1 class="h2_facts" data-ix="fadeintop">{{ about_data.facts.fact5.text }}</h1>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+<div class="key_numbers">
+  <div class="container fade-in-module">
+    <h1>{{ about_data.singleevent }}</h1>
+    <div class="singleevent_img">
+        <img src="/images/about/L2020_Swiss_Map.png" width="60%">
+    </div>
+  </div>
+</div>
+<div class="heritage">
+  <div class="container fade-in-module">
+    <h1>{{ document.fragments.lausanne_legacy_title.text }}</h1>
+    <div class="about-content">
+      {{ document.fragments.lausanne_legacy_content.html }}
+    </div>
+    <div class="heritage-images">
+      <div class="himage1">
+        <img src="{{ document.fragments.lausanne_legacy_image_1.url }}" alt="{{ document.fragments.lausanne_legacy_image_1.alt }}">
+      </div>
+      <div class="himage2">
+        <img src="{{ document.fragments.lausanne_legacy_image_3.url }}" alt="{{ document.fragments.lausanne_legacy_image_2.alt }}">
+      </div>
+      <div class="himage3">
+        <img src="{{ document.fragments.lausanne_legacy_image_3.url }}" alt="{{ document.fragments.lausanne_legacy_image_3.alt }}">
+      </div>
+    </div>
+    <div class="about-text" id="about-text2">
+      {{ document.fragments.lausanne_legacy_end.html }}
+    </div>
+    <div class="about-content">
+      <h1>{{ document.fragments.sporting_legacy_title.text }}</h1>
+      <div class="about-text">
+        {{ document.fragments.sporting_legacy_content_1.html }}
+      </div>
+    </div>
+    <div class="heritage-images">
+      <div class="himage4">
+        <img src="{{ document.fragments.sporting_legacy_image_1.url }}" alt="{{ document.fragments.sporting_legacy_image_1.alt }}">
+      </div>
+      <div class="himage5">
+        <img src="{{ document.fragments.sporting_legacy_image_2.url }}" alt="{{ document.fragments.sporting_legacy_image_2.alt }}">
+      </div>
+    </div>
+    <div class="about-text">
+      {{ document.fragments.sporting_legacy_content_2.html }}
+    </div>
+    <div class="about-content" style="min-height:600px;">
+      <div class="about-text" id="hList">
+        {{ document.fragments.sporting_legacy_content_3_left.html }}
+      </div>
+      <div class="heritage-images" id="hListImg">
+        <img src="{{ document.fragments.sporting_legacy_image_3_right.url }}" alt="{{ document.fragments.sporting_legacy_image_3_right.alt }}">
+      </div>
+    </div>
+    <div class="about-content">
+      <h1>{{ document.fragments.educational_legacy_title.text }}</h1>
+      <div class="about-text">
+        {{ document.fragments.educational_legacy_content.html }}
+      </div>
+    </div>
+    <div class="heritage-images">
+      <div class="himage1">
+        <img src="{{ document.fragments.educational_legacy_image_1.url }}" alt="{{ document.fragments.educational_legacy_image_1.alt }}">
+      </div>
+      <div class="himage2">
+        <img src="{{ document.fragments.educational_legacy_image_2.url }}" alt="{{ document.fragments.sporting_legacy_image_2.alt }}">
+      </div>
+      <div class="himage3">
+        <img src="{{ document.fragments.educational_legacy_image_3.url }}" alt="{{ document.fragments.educational_legacy_image_3.alt }}">
+      </div>
+    </div>
   </div>
 </div>
