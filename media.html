@@ -2,12 +2,13 @@
 layout: default
 ---
 
-{% assign form = site.data[site.lang].pages.media %}
+{% assign media_data = site.data[site.lang].pages.media %}
+{% assign document = site.prismicData.single.page_media%}
 <div class="media_section">
   <div class="container">
-    <h1 class="h1_media">{{ form.title }}</h1>
+    <h1>{{ document.fragments.media_title.text }}</h1>
     <div class="row">
-      test
+      {{ document.fragments.press_release_txt.html }}
     </div>
   </div>
 </div>
