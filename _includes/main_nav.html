@@ -7,11 +7,9 @@
                 <div class="logo">
                     {% if site.lang == "fr-fr" %}
 			<img src="/assets/omega_countdown/official-timekeeper-omega-fr.jpg">
-		    {% endif %}
-		    {% if site.lang == "de-de" %}
+		    {% elsif site.lang == "de-de" %}
 			<img src="/assets/omega_countdown/official-timekeeper-omega-de.jpg">
-		    {% endif %}
-		    {% if site.lang == "en-gb" || site.lang == "es-es" || site.lang == "it-it" %}
+		    {% else %}
 			<img src="/assets/omega_countdown/official-timekeeper-omega.jpg">
 		    {% endif %}
                     <!-- <img class="retina" src="/assets/omega_countdown/official-timekeeper-omega.svg"> -->
