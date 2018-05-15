@@ -5,7 +5,13 @@
         <div class="col-md-3 col-sm-6 col-xs-6" id="countdown">
             <div id="countdown_container_tag" class="countdown_container" style="transform: scale(0.54);">
                 <div class="logo">
-                    <img src="/assets/omega_countdown/official-timekeeper-omega-fr.jpg">
+                    {% if site.lang == "fr-fr" %}
+			<img src="../omega_countdown/official-timekeeper-omega-fr.jpg">
+		    {% elseif site.lang == "de-de" %}
+			<img src="../omega_countdown/official-timekeeper-omega-de.jpg">
+		    {% else %}
+			<img src="../omega_countdown/official-timekeeper-omega.jpg">
+		    {% endif %}
                     <!-- <img class="retina" src="/assets/omega_countdown/official-timekeeper-omega.svg"> -->
                 </div>
 			
