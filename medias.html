@@ -5,13 +5,21 @@ layout: default
 {% assign document = site.prismicData.single.page_media%}
 <div class="about_yog about_yog_1 ">
   <div class="container fade-in-module">
-    <h1>Médias</h1>
+    {% if site.lang == "fr-fr" %}
+      <h1>Médias</h1>
+    {% endif %}
+    {% if site.lang == "de-de" %}
+      <h1>Medien</h1>
+    {% endif %}
+    {% if site.lang == "en-gb" %}
+      <h1>Media</h1>
+    {% endif %}
     <div class="medias col-md-8 col-sm-12">
       {% if site.lang == "fr-fr" %}
         <h2>Communiqués de presse</h2>
       {% endif %}
       {% if site.lang == "de-de" %}
-        <h2>Medienmitteilung</h2>
+        <h2>Medienmitteilungen</h2>
       {% endif %}
       {% if site.lang == "en-gb" %}
         <h2>Press release</h2>
@@ -58,15 +66,15 @@ layout: default
       <div class="contactInfos">
         {% if site.lang == "fr-fr" %}
           <h2>Contact presse :</h2>
-          @ : press(at)lausanne2020(dot)com
+          @ : <a href="mailto:press@lausanne2020.com?Subject=Press%20contact" >press(at)lausanne2020(dot)com</a>
         {% endif %}
         {% if site.lang == "de-de" %}
-          <h2>Pressekontakt</h2>
-          @ : press(at)lausanne2020(dot)com
+          <h2>Medienkontakt</h2>
+          @ : <a href="mailto:press@lausanne2020.com?Subject=Press%20contact" >press(at)lausanne2020(dot)com</a>
         {% endif %}
         {% if site.lang == "en-gb" %}
           <h2>Press contact</h2>
-          @ : press(at)lausanne2020(dot)com
+          @ : <a href="mailto:press@lausanne2020.com?Subject=Press%20contact" >press(at)lausanne2020(dot)com</a>
         {% endif %}
         
       </div>
