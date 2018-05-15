@@ -10,6 +10,8 @@
 /venues/*  /en/venues/:splat  302
 /sports  /en/sports  302
 /sports/*  /en/sports/:splat  302
+/media  /en/media  302
+/media/*  /en/media/:splat  302
 /about  /en/about  302
 /about/*  /en/about/:splat  302
 /jobs  /en/jobs  302
