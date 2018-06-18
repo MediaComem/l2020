@@ -24,7 +24,10 @@ layout: default
     <p class="news_date">
 			<time pubdate datetime="{{page.document.fragments.publication_date.date | date_to_xmlschema}}" title="{{page.document.fragments.publication_date.date | date_to_xmlschema | date: '%d.%m'}}">{{page.document.fragments.publication_date.date | date_to_xmlschema | date: "%d.%m.%Y"}}</time>
 		</p>
-	
+		<?php
+			$uri = $_SERVER['REQUEST_URI'];
+			echo $uri;
+		?>
 		<div class="fb-share-button" style="float: left;" data-href="https://www.lausanne2020.com/fr/news/reunion-du-conseil-des-athletes-l2020" data-layout="button" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.lausanne2020.com%2Ffr%2Fnews%2Freunion-du-conseil-des-athletes-l2020&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Partager</a></div>
 	</div>
 </div>
