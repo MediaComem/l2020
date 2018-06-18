@@ -12,13 +12,13 @@ layout: default
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <script language="javascript">
-    function fbshareCurrentPage()
+    function fbshareCurrentPage(){
     var url = "https://www.facebook.com/sharer/sharer.php?u="+escape(window.location.href)+"&t="+document.title+"&amp;src=sdkpreparse";
     return url; }
 </script>
 
 <script language="javascript">
-    function fbshareCurrentPageUnesc()
+    function fbshareCurrentPageUnesc(){
     var url = unescape("https://www.facebook.com/sharer/sharer.php?u="+escape(window.location.href)+"&t="+document.title+"&amp;src=sdkpreparse");
     return url; }
 </script>
