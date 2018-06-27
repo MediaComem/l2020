@@ -4,14 +4,29 @@ html .hero {
     @media (max-width: 1921px) {
         height: 900px;
 	margin-top: 0px;
+	.container {
+            padding-top: 350px !important;
+	    margin-left: 650px;
+	    width: 800px;
+        }
     } // Width of image
     @media (max-width: 1651px) {
         height: 800px;
 	margin-top: 20px;
+	.container {
+            padding-top: 350px !important;
+	    margin-left: 500px;
+	    width: 800px;
+        }
     }
     @media (max-width: 1501px) {
         height: 700px;
 	margin-top: 30px;
+	.container {
+            padding-top: 150px !important;
+	    margin-left: 650px;
+	    width: 700px;
+        }
         .the_claim {
             font-size: 30px;
             line-height: 40px;
@@ -22,27 +37,38 @@ html .hero {
     @media (max-width: 1250px) {
         height: 600px;
         margin-top: 60px;
-        .container {
-            padding-top: 180px !important;
+	.container {
+            padding-top: 100px !important;
+	    margin-left: 400px;
+	    width: 600px;
         }
     }
     @media (max-width: 1155px) {
         height: 500px;
         margin-top:80px;
-        .container {
-            padding-top: 110px !important;
+	.container {
+            padding-top: 70px !important;
+	    margin-left: 350px;
+	    width: 600px;
         }
     }
     @media (max-width: 990px) {
         height: 400px;
         margin-top:120px;
-        .container {
-            padding-top: 30px !important;
+	.container {
+            padding-top: 70px !important;
+	    margin-left: 300px;
+	    width: 450px;
         }
     }
     @media (max-width: 830px) {
         height: 400px;
         margin-top:120px;
+	.container {
+            padding-top: 70px !important;
+	    margin-left: 300px;
+	    width: 450px;
+        }
         .the_claim {
             font-size: 20px;
             line-height: 30px;
@@ -53,22 +79,24 @@ html .hero {
     @media (max-width: 767px) {
         height:300px;
         margin-top:150px;
+	.container {
+	    margin-left: 180px;
+	    width: 450px;
+        }
     }
     @media (max-width: 550px) {
         height: 200px;
 	margin-top:170px;
+	.container {
+	    margin-left: 120px;
+	    width: 200px;
+        }
         .the_claim {
             font-size: 10px;
             line-height: 20px;
             font-weight: 600;
             padding-left:30px;
             padding-top:10px;
-        }
-    }
-    .container {
-        padding: 250px 0 0 0;
-        @media (max-width: 650px) {
-            padding-top: 175px;
         }
     }
 }
