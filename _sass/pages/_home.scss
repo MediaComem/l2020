@@ -3,9 +3,11 @@ html .hero {
     height: 900px;
     @media (max-width: 1921px) {
         height: 900px;
+	margin-top: 160px;
     } // Width of image
     @media (max-width: 1651px) {
         height: 800px;
+	margin-top: 160px;
     }
     @media (max-width: 1501px) {
         height: 700px;
@@ -13,18 +15,19 @@ html .hero {
             font-size: 30px;
             line-height: 40px;
             font-weight: 600;
+	    margin-top: 160px;
         }
     }
     @media (max-width: 1250px) {
         height: 600px;
-        margin-top: 50px;
+        margin-top: 160px;
         .container {
             padding-top: 180px !important;
         }
     }
     @media (max-width: 1155px) {
         height: 500px;
-        margin-top:100px;
+        margin-top:160px;
         .container {
             padding-top: 110px !important;
         }
@@ -38,7 +41,7 @@ html .hero {
     }
     @media (max-width: 830px) {
         height: 400px;
-        margin-top:180px;
+        margin-top:200px;
         .the_claim {
             font-size: 20px;
             line-height: 30px;
@@ -48,10 +51,11 @@ html .hero {
     }
     @media (max-width: 767px) {
         height:300px;
-        margin-top: 150px;
+        margin-top:200px;
     }
     @media (max-width: 550px) {
         height: 200px;
+	margin-top:200px;
         .the_claim {
             font-size: 10px;
             line-height: 20px;
