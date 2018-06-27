@@ -24,7 +24,7 @@ html .hero {
 	margin-top: 30px;
 	.container {
             padding-top: 150px !important;
-	    margin-left: 650px;
+	    margin-left: 450px;
 	    width: 700px;
         }
         .the_claim {
@@ -57,8 +57,14 @@ html .hero {
         margin-top:120px;
 	.container {
             padding-top: 70px !important;
-	    margin-left: 300px;
+	    margin-left: 250px;
 	    width: 450px;
+        }
+	.the_claim {
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 600;
+            padding-left:30px;
         }
     }
     @media (max-width: 830px) {
@@ -66,8 +72,8 @@ html .hero {
         margin-top:120px;
 	.container {
             padding-top: 70px !important;
-	    margin-left: 300px;
-	    width: 450px;
+	    margin-left: 230px;
+	    width: 480px;
         }
         .the_claim {
             font-size: 20px;
@@ -80,15 +86,23 @@ html .hero {
         height:300px;
         margin-top:150px;
 	.container {
-	    margin-left: 180px;
-	    width: 450px;
+	    margin-left: 150px;
+	    width: 380px;
+	    padding-top: 0px;
+        }
+	.the_claim {
+            font-size: 15px;
+            line-height: 20px;
+            font-weight: 600;
+            padding-left:30px;
+            padding-top:10px;
         }
     }
     @media (max-width: 550px) {
         height: 200px;
 	margin-top:170px;
 	.container {
-	    margin-left: 120px;
+	    margin-left: 80px;
 	    width: 200px;
         }
         .the_claim {
@@ -97,6 +111,7 @@ html .hero {
             font-weight: 600;
             padding-left:30px;
             padding-top:10px;
+	    margin-top: 0;
         }
     }
 }
