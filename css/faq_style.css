@@ -47,6 +47,11 @@ a:hover {
   text-decoration: none;
 }
 
+a:visited {
+  color: #0087cd;
+  text-decoration: none;
+}
+
 .cd-faq {
   width: 65%;
   max-width: 1024px;
@@ -402,10 +407,9 @@ a:hover {
 }
 
 .cd-faq-content p {
-  font-size: 14px;
-  font-size: 0.875rem;
+  font-size: 14px !important;
   line-height: 1.4;
-  color: #6c7d8e;
+  color: #ce0071 !important;
 }
 @media only screen and (min-width: 768px) {
   .cd-faq-content {
