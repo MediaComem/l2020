@@ -7,7 +7,8 @@ layout: default
 <div class="faq">
     <div class="container">
 	<!-- Copyright 2018 Amber Creative Lab Ltd, CodyHouse.co -->
-	{% for post in document.fragments.questions.group_documents %}
+	<section class="cd-faq">
+	    {% for post in document.fragments.questions.group_documents %}
 	    <div class="cd-faq-items">
 		<ul id="basics" class="cd-faq-group">
 			<li>
@@ -16,8 +17,9 @@ layout: default
 					<p>{{post.fragments.answer.text}}</p>
 				</div>
 			</li>
-	    	</ul>
+		</ul>
 	    </div>
-	{% endfor %}
+	    {% endfor %}
+	</section>
     </div>
 </div>
