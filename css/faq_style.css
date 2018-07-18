@@ -60,6 +60,14 @@ body.cd-overlay::after {
   margin: 1em auto;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
+@media only screen and (max-width: 600px) {
+  .cd-faq{
+    width: 100%;
+  }
+  .cd-faq-items{
+    width: 100%;
+  }
+}
 .cd-faq:after {
   content: "";
   display: table;
@@ -215,7 +223,7 @@ body.cd-overlay::after {
   .cd-faq-items {
     position: static;
     height: auto;
-    width: 78%;
+    width: 100%;
     float: right;
     overflow: visible;
     -webkit-transform: translateZ(0) translateX(0);
