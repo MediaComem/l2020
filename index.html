@@ -116,27 +116,26 @@ layout: default
     </div>
     <img width="100%" src="/images/home/Benevoles.png">
 </div>	
+<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
 <div class="newsletter_cta">
     <div class="container flex vcenter fade-in-module">
-        <div class="newsletter-text">
+	<div class="newsletter-text">
             <h1 class="h1_newsletter_cta">{{ document.fragments.newsletter_heading.text }}</h1>
         </div>
-        <form class="newsletter_cta_form form flex stretch" data-name="Email Form" id="email-form-newsletter" name="email-form-newsletter" action="#" netlify>
-            <div class="newsletter-form-adress">
-                <input data-name="Email" id="email" maxlength="256" name="email" placeholder="{{ document.fragments.newsletter_email_placeholder.text }}"
-                    required="required" type="email">
-                <input data-name="Lang" id="lang" maxlength="2" name="lang" value="{{ site.lang }}" required="required" type="hidden">
-            </div>
-            <div class="newsletter-form-button">
-                <input class="newsletter_cta_btn btn" data-wait="Please wait..." type="submit" value="{{ document.fragments.newsletter_submit_button.text }}">
-            </div>
+        {% if site.lang == "fr-fr" %}
+	    <form class="newsletter_cta_form form flex stretch" action="https://lausanne2020.us15.list-manage.com/subscribe/post?u=0fa74011acb0c15df90b53c26&amp;id=5f3f817214" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	{% elsif site.lang == "de-de" %}
+	    <form class="newsletter_cta_form form flex stretch" action="https://lausanne2020.us15.list-manage.com/subscribe/post?u=0fa74011acb0c15df90b53c26&amp;id=9ec6d10489" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	{% else %}
+	    <form class="newsletter_cta_form form flex stretch" action="https://lausanne2020.us15.list-manage.com/subscribe/post?u=0fa74011acb0c15df90b53c26&amp;id=6361358ef5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	{% endif %}
+	    <div id="mc_embed_signup_scroll" class="newsletter-form-adress">
+	        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="{{ document.fragments.newsletter_email_placeholder.text }}" required>
+	    	<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+	    </div>
+	    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0fa74011acb0c15df90b53c26_5f3f817214" tabindex="-1" value=""></div>
+	    <div class="newsletter-form-button"><input type="submit" value="{{ document.fragments.newsletter_submit_button.text }}" name="subscribe" class="newsletter_cta_btn btn"></div>
         </form>
-        <div class="success form-done">
-            <div>{{ document.fragments.newsletter_success.text }}</div>
-        </div>
-        <div class="error form-fail">
-            <div>{{ document.fragments.newsletter_error.text }}</div>
-        </div>
     </div>
 </div>
 <div class="cio-sponsors">
