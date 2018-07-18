@@ -284,9 +284,13 @@ a {
 .cd-faq-group {
   /* hide group not selected */
   display: none;
+  list-style-type: none;
+  padding-left: 0px;
 }
 .cd-faq-group.selected {
   display: block;
+  list-style-type: none;
+  padding-left: 0px;
 }
 .cd-faq-group .cd-faq-title {
   background: transparent;
