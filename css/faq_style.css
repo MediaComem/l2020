@@ -43,9 +43,9 @@ a {
 }
 
 .cd-faq {
-  width: 90%;
+  width: 65%;
   max-width: 1024px;
-  margin: 2em auto;
+  margin: 1em auto;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 .cd-faq:after {
@@ -219,7 +219,6 @@ a {
   .cd-faq-items {
     float: none;
     width: 100%;
-    padding-left: 220px;
   }
   .no-js .cd-faq-items {
     padding-left: 0;
