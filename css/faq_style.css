@@ -1,15 +1,7 @@
 /* -------------------------------- 
 Primary style
 -------------------------------- */
-*, *::after, *::before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
 
-*::after, *::before {
-  content: '';
-}
 body::after {
   /* overlay layer visible on small devices when the right panel slides in */
   position: fixed;
