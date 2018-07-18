@@ -410,6 +410,8 @@ a:visited {
   font-size: 13px !important;
   line-height: 1.4;
   color: #ce0071 !important;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 @media only screen and (min-width: 768px) {
   .cd-faq-content {
