@@ -12,8 +12,6 @@ Primary style
 }
 
 body {
-  font-size: 100%;
-  font-family: "Open Sans", sans-serif;
   color: #4e5359;
   background-color: #f3f3f5;
 }
@@ -47,35 +45,6 @@ body.cd-overlay::after {
 a {
   color: #0087cd;
   text-decoration: none;
-}
-
-/* -------------------------------- 
-Main components 
--------------------------------- */
-header {
-  position: relative;
-  height: 180px;
-  line-height: 180px;
-  text-align: center;
-  background-color: #a9c056;
-}
-header h1 {
-  color: #ffffff;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-size: 20px;
-  font-size: 1.25rem;
-}
-@media only screen and (min-width: 1024px) {
-  header {
-    height: 240px;
-    line-height: 240px;
-  }
-  header h1 {
-    font-size: 36px;
-    font-size: 2.25rem;
-    font-weight: 300;
-  }
 }
 
 .cd-faq {
