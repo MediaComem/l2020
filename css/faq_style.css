@@ -37,17 +37,17 @@ body.cd-overlay::after {
   }
 }
 
-a {
+.cd-faq-items a {
   color: #0087cd;
   text-decoration: none;
 }
 
-a:hover {
+.cd-faq-items a:hover {
   color: #0087cd;
   text-decoration: none;
 }
 
-a:visited {
+.cd-faq-items a:visited {
   color: #0087cd;
   text-decoration: none;
 }
