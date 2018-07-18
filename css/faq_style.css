@@ -42,6 +42,11 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #0087cd;
+  text-decoration: none;
+}
+
 .cd-faq {
   width: 65%;
   max-width: 1024px;
