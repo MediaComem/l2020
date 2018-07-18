@@ -10,11 +10,6 @@ Primary style
 *::after, *::before {
   content: '';
 }
-
-body {
-  color: #4e5359;
-  background-color: #f3f3f5;
-}
 body::after {
   /* overlay layer visible on small devices when the right panel slides in */
   position: fixed;
