@@ -9,6 +9,7 @@ layout: default
 	<!-- Copyright 2018 Amber Creative Lab Ltd, CodyHouse.co -->
 	{% for post in document.fragments.questions.group_documents %}
 	    {{post.fragments.question.text}}
+	    {{post.fragments.answer.text}}
 	{% endfor %}
     </div>
 </div>
