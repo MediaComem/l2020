@@ -172,28 +172,6 @@ body.cd-overlay::after {
   }
 }
 
-.cd-faq-items {
-  position: fixed;
-  height: 100%;
-  width: 90%;
-  top: 0;
-  right: 0;
-  background: #ffffff;
-  padding: 0 5% 1em;
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
-  z-index: 1;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-transform: translateZ(0) translateX(100%);
-  -moz-transform: translateZ(0) translateX(100%);
-  -ms-transform: translateZ(0) translateX(100%);
-  -o-transform: translateZ(0) translateX(100%);
-  transform: translateZ(0) translateX(100%);
-  -webkit-transition: -webkit-transform .3s;
-  -moz-transition: -moz-transform .3s;
-  transition: transform .3s;
-}
 .cd-faq-items.slide-in {
   -webkit-transform: translateZ(0) translateX(0%);
   -moz-transform: translateZ(0) translateX(0%);
@@ -211,8 +189,7 @@ body.cd-overlay::after {
   -o-transform: translateX(0);
   transform: translateX(0);
 }
-@media only screen and (min-width: 768px) {
-  .cd-faq-items {
+.cd-faq-items {
     position: static;
     height: auto;
     width: 78%;
@@ -225,7 +202,6 @@ body.cd-overlay::after {
     transform: translateZ(0) translateX(0);
     padding: 0;
     background: transparent;
-  }
 }
 @media only screen and (min-width: 1024px) {
   .cd-faq-items {
