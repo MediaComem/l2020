@@ -12,20 +12,6 @@ Primary style
   content: '';
 }
 
-body::after {
-  /* overlay layer visible on small devices when the right panel slides in */
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(78, 83, 89, 0.8);
-  visibility: hidden;
-  opacity: 0;
-  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
-  -moz-transition: opacity .3s 0s, visibility 0s .3s;
-  transition: opacity .3s 0s, visibility 0s .3s;
-}
 body.cd-overlay::after {
   visibility: visible;
   opacity: 1;
@@ -33,11 +19,10 @@ body.cd-overlay::after {
   -moz-transition: opacity .3s 0s, visibility 0s 0s;
   transition: opacity .3s 0s, visibility 0s 0s;
 }
-@media only screen and (min-width: 768px) {
+
   body::after {
     display: none;
   }
-}
 
 .cd-faq-items a {
   color: #0087cd;
@@ -59,18 +44,12 @@ body.cd-overlay::after {
   max-width: 1024px;
   margin: 1em auto;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 .cd-faq:after {
   content: "";
   display: table;
   clear: both;
-}
-@media only screen and (min-width: 768px) {
-  .cd-faq {
-    position: relative;
-    margin: 4em auto;
-    box-shadow: none;
-  }
 }
 
 .cd-faq-categories a {
@@ -108,8 +87,7 @@ body.cd-overlay::after {
 .cd-faq-categories li:last-child a {
   border-bottom: none;
 }
-@media only screen and (min-width: 768px) {
-  .cd-faq-categories {
+.cd-faq-categories {
     width: 20%;
     float: left;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
@@ -134,7 +112,7 @@ body.cd-overlay::after {
     width: 100%;
     margin-bottom: 2em;
   }
-}
+
 @media only screen and (min-width: 1024px) {
   .cd-faq-categories {
     position: absolute;
@@ -213,92 +191,11 @@ body.cd-overlay::after {
   }
 }
 
-.cd-close-panel {
-  position: fixed;
-  top: 5px;
-  right: -100%;
-  display: block;
-  height: 40px;
-  width: 40px;
-  overflow: hidden;
-  text-indent: 100%;
-  white-space: nowrap;
-  z-index: 2;
-  /* Force Hardware Acceleration in WebKit */
-  -webkit-transform: translateZ(0);
-  -moz-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  -o-transform: translateZ(0);
-  transform: translateZ(0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-transition: right 0.4s;
-  -moz-transition: right 0.4s;
-  transition: right 0.4s;
-}
-.cd-close-panel::before, .cd-close-panel::after {
-  /* close icon in CSS */
-  position: absolute;
-  top: 16px;
-  left: 12px;
-  display: inline-block;
-  height: 3px;
-  width: 18px;
-  background: #6c7d8e;
-}
-.cd-close-panel::before {
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-.cd-close-panel::after {
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-.cd-close-panel.move-left {
-  right: 2%;
-}
-@media only screen and (min-width: 768px) {
   .cd-close-panel {
     display: none;
   }
-}
 
-.cd-faq-group {
-  /* hide group not selected */
-  display: none;
-  list-style-type: none;
-  padding-left: 0px;
-}
-.cd-faq-group.selected {
-  display: block;
-  list-style-type: none;
-  padding-left: 0px;
-}
-.cd-faq-group .cd-faq-title {
-  background: transparent;
-  box-shadow: none;
-  margin: 1em 0;
-}
-.no-touch .cd-faq-group .cd-faq-title:hover {
-  box-shadow: none;
-}
-.cd-faq-group .cd-faq-title h2 {
-  text-transform: uppercase;
-  font-size: 12px;
-  font-size: 0.75rem;
-  font-weight: 700;
-  color: #bbbbc7;
-}
-.no-js .cd-faq-group {
-  display: block;
-}
-@media only screen and (min-width: 768px) {
+
   .cd-faq-group {
     /* all groups visible */
     display: block;
@@ -320,15 +217,7 @@ body.cd-overlay::after {
   .cd-faq-group:first-child .cd-faq-title {
     margin-top: 0;
   }
-}
 
-.cd-faq-trigger {
-  position: relative;
-  display: block;
-  margin: 1.6em 0 .4em;
-  line-height: 1.2;
-}
-@media only screen and (min-width: 768px) {
   .cd-faq-trigger {
     font-size: 24px;
     font-size: 1.5rem;
@@ -382,7 +271,6 @@ body.cd-overlay::after {
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
   }
-}
 
 .cd-faq-content p {
   font-size: 13px !important;
@@ -391,15 +279,12 @@ body.cd-overlay::after {
   margin-top: 0px;
   margin-bottom: 20px;
 }
-@media only screen and (min-width: 768px) {
   .cd-faq-content {
     display: none;
     padding: 0 60px 10px;
   }
-  .cd-faq-content p {
-    line-height: 1.6;
-  }
+
   .no-js .cd-faq-content {
     display: block;
   }
-}
+
