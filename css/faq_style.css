@@ -307,6 +307,9 @@ body.cd-overlay::after {
   list-style-type: none;
   padding-left: 0px;
 }
+.cd-faq-group a:hover {
+  color: #ce0071;
+}
 .cd-faq-group.selected {
   display: block;
   list-style-type: none;
@@ -422,7 +425,7 @@ body.cd-overlay::after {
 }
 
 .cd-faq-content p {
-  font-size: 13px !important;
+  font-size: 1.5rem !important;
   line-height: 1.4;
   color: #0087cd !important;
   margin-top: 0px;
