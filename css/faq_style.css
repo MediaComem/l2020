@@ -427,7 +427,7 @@ body.cd-overlay::after {
 .cd-faq-content p {
   font-size: 1.5rem !important;
   line-height: 1.4;
-  color: #0087cd !important;
+  color: #858585 !important;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -441,9 +441,11 @@ body.cd-overlay::after {
   }
   .cd-faq-content a {
     text-decoration: underline;
+  color: #858585 !important;
   }
   .cd-faq-content a:visited {
     text-decoration: underline;
+  color: #858585 !important;
   }
   .cd-faq-content a:hover {
     text-decoration: underline;
