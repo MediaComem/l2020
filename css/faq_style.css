@@ -360,7 +360,10 @@ body.cd-overlay::after {
   margin: 1.6em 0 .4em;
   line-height: 1.2;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: bold !important;
+}
+.cd-faq-trigger:hover {
+  color: #ce0071;
 }
 @media only screen and (min-width: 300px) {
   .cd-faq-trigger {
@@ -436,12 +439,12 @@ body.cd-overlay::after {
   .cd-faq-content a {
     text-decoration: underline;
   }
-  .cd-faq-content a :visited {
+  .cd-faq-content a:visited {
     text-decoration: underline;
   }
-  .cd-faq-content a :hover {
+  .cd-faq-content a:hover {
     text-decoration: underline;
-    color: #0087cd !important;
+    color: #ce0071 !important;
   }
   .no-js .cd-faq-content {
     display: block;
