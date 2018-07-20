@@ -455,3 +455,8 @@ body.cd-overlay::after {
     display: block;
   }
 }
+@media only screen and (max-width: 768px) {
+  .cd-faq-content p {
+    text-align: left;
+  }
+}
