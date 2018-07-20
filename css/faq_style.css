@@ -359,6 +359,8 @@ body.cd-overlay::after {
   display: block;
   margin: 1.6em 0 .4em;
   line-height: 1.2;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 @media only screen and (min-width: 300px) {
   .cd-faq-trigger {
@@ -366,7 +368,7 @@ body.cd-overlay::after {
     font-size: 1.5rem;
     font-weight: 300;
     margin: 0;
-    padding: 24px 72px 24px 24px;
+    padding: 15px 72px 15px 24px;
   }
   .cd-faq-trigger::before, .cd-faq-trigger::after {
     /* arrow icon on the right */
@@ -419,9 +421,9 @@ body.cd-overlay::after {
 .cd-faq-content p {
   font-size: 13px !important;
   line-height: 1.4;
-  color: #ce0071 !important;
+  color: #0087cd !important;
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 @media only screen and (min-width: 300px) {
   .cd-faq-content {
@@ -430,6 +432,16 @@ body.cd-overlay::after {
   }
   .cd-faq-content p {
     line-height: 1.6;
+  }
+  .cd-faq-content a {
+    text-decoration: underline;
+  }
+  .cd-faq-content a :visited {
+    text-decoration: underline;
+  }
+  .cd-faq-content a :hover {
+    text-decoration: underline;
+    color: #0087cd !important;
   }
   .no-js .cd-faq-content {
     display: block;
