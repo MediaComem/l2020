@@ -18,3 +18,5 @@
 /jobs/*  /en/jobs/:splat  302
 /contact  /en/contact  302
 /contact/*  /en/contact/:splat  302
+/faq  /en/faq  302
+/faq/*  /en/faq/:splat  302

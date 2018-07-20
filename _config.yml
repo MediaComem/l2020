@@ -75,6 +75,18 @@ prismic:
       page_size: 100
       # Generate output files or not (default: false)
       output: true
+    newsBA:
+      # Query the documents by type (optional)
+      type: newsba
+      # Permalink used to generate the output files. This should match an
+      # entry in "links", so documents link to the right output files
+      permalink: /newsba/:slug
+      # Layout file for this collection
+      layout: single-news.html
+      # Max quantity of items (optional, default is 20)
+      page_size: 100
+      # Generate output files or not (default: false)
+      output: true
     venues:
       # Query the documents by type (optional)
       type: venues

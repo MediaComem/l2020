@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+{% assign document = site.prismicData.single.page_faq%}
+
+<div class="faq">
+    <div class="container">
+	<h1>{{document.fragments.title.text}} </h1>    
+	<!-- Copyright 2018 Amber Creative Lab Ltd, CodyHouse.co -->
+	<section class="cd-faq">
+	    {% for post in document.fragments.questions.group_documents %}
+	    <div class="cd-faq-items">
+		<ul id="basics" class="cd-faq-group">
+			<li>
+				<a class="cd-faq-trigger" href="#0">{{post.fragments.question.text}}</a>
+				<div class="cd-faq-content">
+					<p>{{post.fragments.answer.text}}</p>
+				</div>
+			</li>
+		</ul>
+	    </div>
+	    {% endfor %}
+	</section>
+    </div>
+</div>

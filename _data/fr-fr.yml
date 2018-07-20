@@ -12,6 +12,8 @@ nav:
       path: "/fr/medias"
     - title: "Shop"
       path: "https://lausanne2020.many-ways.ch/fr/" 
+    - title: "FAQ"
+      path: "/fr/faq"
     - title: "A propos"
       path: "/fr/about"
   footer:
@@ -25,6 +27,8 @@ nav:
       path: "/fr/sports"
     - title: "Médias"
       path: "/fr/medias"
+    - title: "FAQ"
+      path: "/fr/faq"
     - title: "A propos"
       path: "/fr/about"
     - title: "Emplois"
