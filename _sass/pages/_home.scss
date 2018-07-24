@@ -2,30 +2,30 @@ html .hero {
     background-size: cover;
     height: 900px;
     @media (max-width: 1921px) {
-        height: 900px;
-	margin-top: 0px;
+        height: 800px;
+	margin-top: 190px;
 	.container {
             padding-top: 350px !important;
 	    margin-left: 650px;
-	    width: 800px;
+	    width: 1400px;
         }
     } // Width of image
     @media (max-width: 1651px) {
-        height: 800px;
-	margin-top: 20px;
+        height: 700px;
+	margin-top: 190px;
 	.container {
-            padding-top: 350px !important;
-	    margin-left: 500px;
-	    width: 800px;
+            padding-top: 200px !important;
+	    margin-left: 150px;
+	    width: 1100px;
         }
     }
     @media (max-width: 1501px) {
-        height: 700px;
-	margin-top: 30px;
+        height: 600px;
+	margin-top: 190px;
 	.container {
-            padding-top: 150px !important;
-	    margin-left: 450px;
-	    width: 700px;
+            padding-top: 50px !important;
+	    margin-left: 50px;
+	    width: 1200px;
         }
         .the_claim {
             font-size: 30px;
@@ -35,83 +35,83 @@ html .hero {
         }
     }
     @media (max-width: 1250px) {
-        height: 600px;
-        margin-top: 60px;
+        height: 500px;
+        margin-top: 190px;
 	.container {
-            padding-top: 100px !important;
-	    margin-left: 400px;
-	    width: 600px;
+            padding-top: 10px !important;
+	    margin-left: 150px;
+	    width: 800px;
         }
     }
     @media (max-width: 1155px) {
         height: 500px;
-        margin-top:80px;
+        margin-top: 190px;
 	.container {
-            padding-top: 70px !important;
-	    margin-left: 350px;
-	    width: 600px;
+            padding-top: 0px !important;
+	    margin-left: 150px;
+	    width: 800px;
         }
     }
     @media (max-width: 990px) {
         height: 400px;
-        margin-top:120px;
+        margin-top:220px;
 	.container {
-            padding-top: 70px !important;
-	    margin-left: 250px;
-	    width: 450px;
+            padding-top: 0px !important;
+	    margin-left: 100px;
+	    width: 700px;
         }
 	.the_claim {
             font-size: 20px;
             line-height: 30px;
             font-weight: 600;
-            padding-left:30px;
+            padding-left: 0px;
+	    margin-top: 130px;
         }
     }
     @media (max-width: 830px) {
         height: 400px;
-        margin-top:120px;
+        margin-top: 220px;
 	.container {
-            padding-top: 70px !important;
-	    margin-left: 230px;
-	    width: 480px;
+            padding-top: 0px !important;
+	    margin-left: 50px;
+	    width: 500px;
         }
         .the_claim {
             font-size: 20px;
             line-height: 30px;
             font-weight: 600;
-            padding-left:30px;
+            padding-left: 0px;
+	    margin-top: 110px;
         }
     }
     @media (max-width: 767px) {
         height:300px;
-        margin-top:150px;
+        margin-top:200px;
 	.container {
-	    margin-left: 150px;
-	    width: 380px;
+	    margin-left: 50px;
+	    width: 500px;
 	    padding-top: 0px;
         }
 	.the_claim {
             font-size: 15px;
             line-height: 20px;
             font-weight: 600;
-            padding-left:30px;
-            padding-top:10px;
+            margin-top:100px;
         }
     }
     @media (max-width: 550px) {
         height: 200px;
-	margin-top:170px;
+	margin-top: 200px;
 	.container {
-	    margin-left: 80px;
-	    width: 200px;
+	    margin-left: 0px;
+	    width: 300px;
         }
         .the_claim {
             font-size: 10px;
             line-height: 20px;
             font-weight: 600;
-            padding-left:30px;
             padding-top:10px;
-	    margin-top: 0;
+	    margin-top: 50px;
         }
     }
 }
@@ -142,7 +142,7 @@ html .hero {
 }
 .the_claim {
     position: absolute;
-    color: #0088ce;
+    color: #ffffff;
     width: inherit;
     font-size: 45px;
     line-height: 50px;
