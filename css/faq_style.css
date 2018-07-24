@@ -438,6 +438,7 @@ body.cd-overlay::after {
   }
   .cd-faq-content p {
     line-height: 1.6;
+    text-align: left !important;
   }
   .cd-faq-content a {
     text-decoration: underline;
