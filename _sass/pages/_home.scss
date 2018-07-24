@@ -1,12 +1,17 @@
 html .hero {
     background-size: cover;
     height: 900px;
+    margin-top: 190px;
+    .container {
+        padding-top: 220px !important;
+	margin-left: 150px;
+    }
     @media (max-width: 1921px) {
         height: 800px;
 	margin-top: 190px;
 	.container {
-            padding-top: 350px !important;
-	    margin-left: 650px;
+            padding-top: 220px !important;
+	    margin-left: 150px;
         }
     } // Width of image
     @media (max-width: 1651px) {
