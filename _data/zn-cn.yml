@@ -1,0 +1,148 @@
+nav:
+  header:
+    - title: "Home"
+      path: "/en/"
+    - title: "News"
+      path: "/en/news"
+    - title: "Venues"
+      path: "/en/venues"
+    - title: "Sports"
+      path: "/en/sports"
+    - title: "Media"
+      path: "/en/medias"
+    - title: "Shop"
+      path: "https://lausanne2020.many-ways.ch/en/"
+    - title: "FAQ"
+      path: "/en/faq"
+    - title: "About"
+      path: "/en/about"
+  footer:
+    - title: "Home"
+      path: "/en/"
+    - title: "News"
+      path: "/en/news"
+    - title: "Venues"
+      path: "/en/venues"
+    - title: "Sports"
+      path: "/en/sports"
+    - title: "Media"
+      path: "/en/medias"
+    - title: "FAQ"
+      path: "/en/faq"
+    - title: "About"
+      path: "/en/about"
+    - title: "Jobs"
+      path: "/en/jobs"
+    - title: "Shop"
+      path: "https://lausanne2020.many-ways.ch/en/"
+    - title: "Contact"
+      path: "/en/contact"
+pages:
+  index:
+    volunteers_txt: "Test"
+  news:
+    archive_link: Archive
+  sports:
+    biathlon:
+      text: Biathlon
+      link: "https://www.olympic.org/biathlon"
+    bobsleigh:
+      text: Bobsleigh
+      link: "https://www.olympic.org/bobsleigh"
+    combine-nordique:
+      text: Nordic combined
+      link: "https://www.olympic.org/nordic-combined"
+    curling:
+      text: Curling
+      link: "https://www.olympic.org/curling"
+    hockey-sur-glace:
+      text: Ice hockey
+      link: "https://www.olympic.org/ice-hockey"
+    luge:
+      text: Luge
+      link: "https://www.olympic.org/luge"
+    patinage-artistique:
+      text: Figure skating
+      link: "https://www.olympic.org/figure-skating"
+    patinage-vitesse:
+      text: Speed skating
+      link: "https://www.olympic.org/speed-skating"
+    short-track:
+      text: Short track speed skating
+      link: "https://www.olympic.org/short-track-speed-skating"
+    saut-a-ski:
+      text: Ski jumping
+      link: "https://www.olympic.org/ski-jumping"
+    skeleton:
+      text: Skeleton
+      link: "https://www.olympic.org/skeleton"
+    ski-freestyle:
+      text: Freestyle skiing
+      link: "https://www.olympic.org/freestyle-skiing"
+    ski-alpin:
+      text: Alpine skiing
+      link: "https://www.olympic.org/alpine-skiing"
+    ski-de-fond:
+      text: Cross-country skiing
+      link: "https://www.olympic.org/cross-country-skiing"
+    snowboard:
+      text: Snowboard
+      link: "https://www.olympic.org/snowboard"
+    skimo:
+      text: Ski mountaineering
+      link: "https://www.olympic.org/news/climbing-the-olympic-summit-everything-you-need-to-know-about-ski-mountaineering"
+  about:
+    facts:
+      title: Lausanne 2020 in numbers
+      fact1: 
+        number: "1’880" 
+        text: Athletes aged between 15 and 18 years
+      fact2: 
+        number: "+70" 
+        text: Nations
+      fact3: 
+        number: "8 sports"
+        text: 16 disciplines and 81 events
+      fact4: 
+        number: "+3,000" 
+        text: Volunteers
+      fact5: 
+        number: GENDER 
+        text: EQUALITY
+    singleevent: 3 regions - 2 countries - 1 single event
+  contact:
+    title: Contact
+    form:
+      prenom:
+        title: First name
+        placeholder: Enter your first name
+      nom:
+        title: Last name
+        placeholder: Enter your last name
+      email:
+        title: E-mail address
+        placeholder: Enter your e-mail address
+      message:
+        title: Message
+        placeholder: Enter your message here
+      envoyer: Send
+      thanks: Thank you very much for your request. We will reply as soon as possible!
+      error: Oops! Something went wrong while submitting the form
+  venues:
+    title: Non-competitions venues
+    subtitle1: Youth Olympic Village
+    text1: Before becoming a student residence in autumn 2020, the Vortex will host, in January of the same year, the athletes and National Olympic Committees of the Lausanne 2020 Youth Olympic Games. This elliptical building is located in the heart of the campus of the University of Lausanne, institutional partner of Lausanne 2020.
+    link1: https://www.cpev.ch/immobilier/vortex
+    textlink1: More informations and webcams
+    subtitle2: Medal Plaza
+    text2: The medal ceremony will take place in the Quartier du Flon, a lively place in the heart of Lausanne.
+    link2: https://flon.ch/en/
+    textlink2: Learn more
+footer:
+  link:
+    tokyo: "https://tokyo2020.jp/en/"
+    beijing: "http://www.beijing2022.cn/en/"
+    buenos: "https://www.buenosaires2018.com/home"
+    pyeongChang: "https://www.pyeongchang2018.com/en/index"
+    paris: "http://paris2024.org/en"
+    losAngeles: "https://www.olympic.org/la-2028"
