@@ -128,31 +128,27 @@ layout: default
 </div>
 <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
 <div class="newsletter_cta col-md-6 col-sm-12">
-    <div class="vcenter fade-in-module">
-	<div class="newsletter-text">
-            <h1 class="h1_newsletter_cta"
-		<img height="100" src="/images/home/nl.png">
-		{{ document.fragments.newsletter_header1.text }}
-	    </h1>
-	    <h2 class="h1_newsletter_cta">{{ document.fragments.newsletter_text.text }}</h2>
-	    <p>{{ document.fragments.newsletter_heading.text }}</p>
-        </div>
-        {% if site.lang == "fr-fr" %}
-	    <form class="newsletter_cta_form form flex stretch" action="https://lausanne2020.us15.list-manage.com/subscribe/post?u=0fa74011acb0c15df90b53c26&amp;id=5f3f817214" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-	{% elsif site.lang == "de-de" %}
-	    <form class="newsletter_cta_form form flex stretch" action="https://lausanne2020.us15.list-manage.com/subscribe/post?u=0fa74011acb0c15df90b53c26&amp;id=9ec6d10489" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-	{% else %}
-	    <form class="newsletter_cta_form form flex stretch" action="https://lausanne2020.us15.list-manage.com/subscribe/post?u=0fa74011acb0c15df90b53c26&amp;id=6361358ef5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-	{% endif %}
-	    <div id="mc_embed_signup_scroll" class="newsletter-form-adress">
-	        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="{{ document.fragments.newsletter_email_placeholder.text }}" required>
-	    	<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-	    </div>
-	    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0fa74011acb0c15df90b53c26_5f3f817214" tabindex="-1" value=""></div>
-	    <div class="newsletter-form-button"><input type="submit" value="{{ document.fragments.newsletter_submit_button.text }}" name="subscribe" class="newsletter_cta_btn btn"></div>
-        </form>
-	<p>{{ document.fragments.newsletter_gdpr.text }}</p>
+    <h3 style="margin-top: 40px !important;">
+	<img height="100" src="/images/home/nl.png">
+	{{ document.fragments.newsletter_header1.text }}
+    </h3>
+    <h3 style="margin-top: 20px !important; font-weight: normal;">{{ document.fragments.newsletter_text.text }}</h3>
+    <p>{{ document.fragments.newsletter_heading.text }}</p>
+    {% if site.lang == "fr-fr" %}
+    	<form class="newsletter_cta_form form flex stretch" action="https://lausanne2020.us15.list-manage.com/subscribe/post?u=0fa74011acb0c15df90b53c26&amp;id=5f3f817214" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    {% elsif site.lang == "de-de" %}
+    	<form class="newsletter_cta_form form flex stretch" action="https://lausanne2020.us15.list-manage.com/subscribe/post?u=0fa74011acb0c15df90b53c26&amp;id=9ec6d10489" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    {% else %}
+	<form class="newsletter_cta_form form flex stretch" action="https://lausanne2020.us15.list-manage.com/subscribe/post?u=0fa74011acb0c15df90b53c26&amp;id=6361358ef5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    {% endif %}
+    <div id="mc_embed_signup_scroll" class="newsletter-form-adress">
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="{{ document.fragments.newsletter_email_placeholder.text }}" required>
+	<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     </div>
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0fa74011acb0c15df90b53c26_5f3f817214" tabindex="-1" value=""></div>
+    <div class="newsletter-form-button"><input type="submit" value="{{ document.fragments.newsletter_submit_button.text }}" name="subscribe" class="newsletter_cta_btn btn"></div>
+    </form>
+    <p>{{ document.fragments.newsletter_gdpr.text }}</p>
 </div>
 <div class="volunteers_big" style="text-align: center;">
     <div class="volunteers_text" style="position: absolute; margin-top: 35vw; text-align: center;">
