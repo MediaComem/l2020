@@ -105,16 +105,19 @@ layout: default
     </div>
 </div>	
 <div class="socials_left col-md-6 col-sm-12">
-    <h3>{{ document.fragments.socials_header1.text }}</h3>
+    <h3>
+    	<img height="100" src="/images/home/collab.png">
+	{{ document.fragments.socials_header1.text }}
+    </h3>
     <h2>{{ document.fragments.socials_header2.text }}</h2>
     <p>
 	{{ document.fragments.socials_text.text }}
     </p>
     <a class="socials_links" href="https://www.instagram.com/lausanne2020" target="_blank" rel="noopener">
-	<img height="30" src="/images/layout/Instagram-logo.png">
+	<img height="30" src="/images/home/insta_icon.png">
     </a>
     <a class="socials_links" href="https://www.facebook.com/lausanne2020/" target="_blank" rel="noopener">
-    	<img height="30" src="/images/layout/facebook-icon.png">
+    	<img height="30" src="/images/home/fb_icon.png">
     </a>
     <a class="socials_links" href="https://twitter.com/lausanne2020" target="_blank" rel="noopener">
 	<img height="24" src="/images/layout/twitter-icon.svg">
@@ -127,7 +130,10 @@ layout: default
 <div class="newsletter_cta col-md-6 col-sm-12">
     <div class="vcenter fade-in-module">
 	<div class="newsletter-text">
-            <h1 class="h1_newsletter_cta">{{ document.fragments.newsletter_header1.text }}</h1>
+            <h1 class="h1_newsletter_cta"
+		<img height="100" src="/images/home/nl.png">
+		{{ document.fragments.newsletter_header1.text }}
+	    </h1>
 	    <h2 class="h1_newsletter_cta">{{ document.fragments.newsletter_text.text }}</h2>
 	    <p>{{ document.fragments.newsletter_heading.text }}</p>
         </div>
