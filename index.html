@@ -103,36 +103,33 @@ layout: default
 
         </div>
     </div>
-</div>
-<div class="volunteers_big" style="text-align: center;">
-    <div class="volunteers_text" style="position: absolute; margin-top: 10vw; text-align: center;">
-	<p style="font-weight: bold;">{{ document.fragments.volunteers_text.text }}</p>
-    </div>
-    <img width="100%" src="/images/home/Benevoles_half.png">
-</div>	
-<div class="volunteers_small" style="text-align: center;">
-    <div class="volunteers_text_small" style="position: absolute; margin-top: 15vw; text-align: center;">
-	<p style="font-weight: bold;">{{ document.fragments.volunteers_text.text }}</p>
-    </div>
-    <img width="100%" src="/images/home/Benevoles.png">
 </div>	
 <div class="socials_left col-md-6 col-sm-12">
-    <h3>asdf</h3>
-    <h2>asdf</h2>
+    <h3>{{ document.fragments.socials_header1.text }}</h3>
+    <h2>{{ document.fragments.socials_header2.text }}</h2>
     <p>
-	asdfasdf <br>	
-	asdfasdf
+	{{ document.fragments.socials_text.text }}
     </p>
-    <a href=""><img src=""/></a>
-    <a href=""><img src=""/></a>
-    <a href=""><img src=""/></a>
-    <a href=""><img src=""/></a>
+    <a class="socials_links" href="https://www.instagram.com/lausanne2020" target="_blank" rel="noopener">
+	<img height="30" src="/images/layout/Instagram-logo.png">
+    </a>
+    <a class="socials_links" href="https://www.facebook.com/lausanne2020/" target="_blank" rel="noopener">
+    	<img height="30" src="/images/layout/facebook-icon.png">
+    </a>
+    <a class="socials_links" href="https://twitter.com/lausanne2020" target="_blank" rel="noopener">
+	<img height="24" src="/images/layout/twitter-icon.svg">
+    </a>
+    <a class="socials_links" href="https://www.youtube.com/channel/UCcEgzQvjtLp7UCdsXfuHbyQ" target="_blank" rel="noopener">
+	<img height="24" src="/images/layout/YouTube-icon.png">
+    </a>
 </div>
 <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
 <div class="newsletter_cta col-md-6 col-sm-12">
     <div class="vcenter fade-in-module">
 	<div class="newsletter-text">
-            <h1 class="h1_newsletter_cta">{{ document.fragments.newsletter_heading.text }}</h1>
+            <h1 class="h1_newsletter_cta">{{ document.fragments.newsletter_header1.text }}</h1>
+	    <h2 class="h1_newsletter_cta">{{ document.fragments.newsletter_text.text }}</h2>
+	    <p>{{ document.fragments.newsletter_heading.text }}</p>
         </div>
         {% if site.lang == "fr-fr" %}
 	    <form class="newsletter_cta_form form flex stretch" action="https://lausanne2020.us15.list-manage.com/subscribe/post?u=0fa74011acb0c15df90b53c26&amp;id=5f3f817214" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -148,7 +145,20 @@ layout: default
 	    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0fa74011acb0c15df90b53c26_5f3f817214" tabindex="-1" value=""></div>
 	    <div class="newsletter-form-button"><input type="submit" value="{{ document.fragments.newsletter_submit_button.text }}" name="subscribe" class="newsletter_cta_btn btn"></div>
         </form>
+	<p>{{ document.fragments.newsletter_gdpr.text }}</p>
     </div>
+</div>
+<div class="volunteers_big" style="text-align: center;">
+    <div class="volunteers_text" style="position: absolute; margin-top: 10vw; text-align: center;">
+	<p style="font-weight: bold;">{{ document.fragments.volunteers_text.text }}</p>
+    </div>
+    <img width="100%" src="/images/home/Benevoles_half.png">
+</div>	
+<div class="volunteers_small" style="text-align: center;">
+    <div class="volunteers_text_small" style="position: absolute; margin-top: 15vw; text-align: center;">
+	<p style="font-weight: bold;">{{ document.fragments.volunteers_text.text }}</p>
+    </div>
+    <img width="100%" src="/images/home/Benevoles.png">
 </div>
 <div class="cio-sponsors">
     <div class="container">
