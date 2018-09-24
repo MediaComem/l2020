@@ -3,16 +3,16 @@ html .hero {
     height: 900px;
     margin-top: 190px;
     .container {
-        padding-top: 50px !important;
-	margin-left: 250px;
+        padding-top: 10px !important;
+	margin-left: 50px;
 	width: 1500px;
     }
     @media (max-width: 1921px) {
         height: 800px;
 	margin-top: 190px;
 	.container {
-            padding-top: 50px !important;
-	    margin-left: 300px;
+            padding-top: 10px !important;
+	    margin-left: 50px;
 	    width: 1100px;
         }
     } // Width of image
@@ -20,9 +20,9 @@ html .hero {
         height: 700px;
 	margin-top: 190px;
 	.container {
-            padding-top: 20px !important;
-	    margin-left: 280px;
-	    width: 1000px;
+            padding-top: 10px !important;
+	    margin-left: 50px;
+	    width: 1200px;
         }
     }
     @media (max-width: 1501px) {
@@ -30,7 +30,7 @@ html .hero {
 	margin-top: 190px;
 	.container {
             padding-top: 20px !important;
-	    margin-left: 250px;
+	    margin-left: 20px;
 	    width: 800px;
         }
         .the_claim {
@@ -45,7 +45,7 @@ html .hero {
         margin-top: 190px;
 	.container {
             padding-top: 10px !important;
-	    margin-left: 250px;
+	    margin-left: 10px;
 	    width: 750px;
         }
     }
@@ -53,9 +53,9 @@ html .hero {
         height: 500px;
         margin-top: 190px;
 	.container {
-            padding-top: 0px !important;
-	    margin-left: 250px;
-	    width: 700px;
+            padding-top: 10px !important;
+	    margin-left: 10px;
+	    width: 800px;
         }
     }
     @media (max-width: 990px) {
@@ -63,15 +63,15 @@ html .hero {
         margin-top:220px;
 	.container {
             padding-top: 0px !important;
-	    margin-left: 100px;
+	    margin-left: 10px;
 	    width: 650px;
         }
 	.the_claim {
             font-size: 20px;
             line-height: 30px;
             font-weight: 600;
-            padding-left: 50px;
-	    margin-top: 40px;
+            padding-left: 0px;
+	    margin-top: 20px;
         }
     }
     @media (max-width: 830px) {
@@ -79,14 +79,14 @@ html .hero {
         margin-top: 220px;
 	.container {
             padding-top: 0px !important;
-	    margin-left: 50px;
+	    margin-left: 0px;
 	    width: 600px;
         }
         .the_claim {
             font-size: 20px;
             line-height: 30px;
             font-weight: 600;
-            padding-left: 100px;
+            padding-left: 10px;
 	    margin-top: 20px;
         }
     }
@@ -94,7 +94,7 @@ html .hero {
         height:300px;
         margin-top:200px;
 	.container {
-	    margin-left: 50px;
+	    margin-left: 10px;
 	    width: 480px;
 	    padding-top: 0px;
         }
@@ -118,7 +118,7 @@ html .hero {
             font-weight: 600;
             padding-top: 0px;
 	    margin-top: 10px;
-	    padding-left: 50px;
+	    padding-left: 0px;
         }
     }
 }
