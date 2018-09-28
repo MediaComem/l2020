@@ -89,21 +89,6 @@ layout: default
         </div>
     </div>
 </div>
-<div class="social_feed_section social_wall">
-    <div class='container'>
-        <h1 class="h1_big_news" style="color:white;">{{ document.fragments.social_wall_title.text }}</h1>
-            <div class="row">
-
-                {% social_wall
-                
-                    insta_username:2041300508,
-                    insta_amount:3
-            
-                %}
-
-        </div>
-    </div>
-</div>	
 <div class="socials_left col-md-6 col-sm-12" style="padding-left: 100px; height: 400px; background-color: #CF0072;">
     <h3 style="margin-top: 40px !important;">
     	<img height="60" style="margin-right: 20px;" src="/images/home/collab.png">
@@ -150,6 +135,21 @@ layout: default
     </form>
     <p>{{ document.fragments.newsletter_gdpr.text }}</p>
 </div>
+<div class="social_feed_section social_wall">
+    <div class='container'>
+        <h1 class="h1_big_news" style="color:white;">{{ document.fragments.social_wall_title.text }}</h1>
+            <div class="row">
+
+                {% social_wall
+                
+                    insta_username:2041300508,
+                    insta_amount:3
+            
+                %}
+
+        </div>
+    </div>
+</div>	
 <div class="volunteers_big" style="text-align: center;">
     <div class="volunteers_text" style="position: absolute; margin-top: 35vw; text-align: center;">
 	<p style="font-weight: bold;">{{ document.fragments.volunteers_text.text }}</p>
