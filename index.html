@@ -89,7 +89,33 @@ layout: default
         </div>
     </div>
 </div>
+<div class="social_feed_section social_wall" style="margin-top: 400px; padding-top: 20px;">
+    <div class='container'>
+        <h1 class="h1_big_news" style="color:white;">{{ document.fragments.social_wall_title.text }}</h1>
+            <div class="row">
 
+                {% social_wall
+                
+                    insta_username:2041300508,
+                    insta_amount:3
+            
+                %}
+
+        </div>
+    </div>
+</div>	
+<div class="volunteers_big" style="text-align: center;">
+    <div class="volunteers_text" style="position: absolute; margin-top: 15vw; text-align: center;">
+	<p style="font-weight: bold;">{{ document.fragments.volunteers_text.text }}</p>
+    </div>
+    <img width="100%" src="/images/home/Benevoles_half.png">
+</div>	
+<div class="volunteers_small" style="text-align: center;">
+    <div class="volunteers_text_small" style="position: absolute; margin-top: 15vw; text-align: center;">
+	<p style="font-weight: bold;">{{ document.fragments.volunteers_text.text }}</p>
+    </div>
+    <img width="100%" src="/images/home/Benevoles.png">
+</div>
 <div class="socials_left col-md-6 col-sm-12" style="padding-left: 100px; padding-right: 50px; height: 400px; background-color: #CF0072;">
     <h3 style="margin-top: 40px !important;">
     	<img height="60" style="margin-right: 20px;" src="/images/home/collab.png">
@@ -135,34 +161,6 @@ layout: default
     <div class="newsletter-form-button"><input type="submit" value="{{ document.fragments.newsletter_submit_button.text }}" name="subscribe" class="newsletter_cta_btn btn"></div>
     </form>
     <p>{{ document.fragments.newsletter_gdpr.text }}</p>
-</div>
-		
-<div class="social_feed_section social_wall" style="margin-top: 400px; padding-top: 20px;">
-    <div class='container'>
-        <h1 class="h1_big_news" style="color:white;">{{ document.fragments.social_wall_title.text }}</h1>
-            <div class="row">
-
-                {% social_wall
-                
-                    insta_username:2041300508,
-                    insta_amount:3
-            
-                %}
-
-        </div>
-    </div>
-</div>	
-<div class="volunteers_big" style="text-align: center;">
-    <div class="volunteers_text" style="position: absolute; margin-top: 15vw; text-align: center;">
-	<p style="font-weight: bold;">{{ document.fragments.volunteers_text.text }}</p>
-    </div>
-    <img width="100%" src="/images/home/Benevoles_half.png">
-</div>	
-<div class="volunteers_small" style="text-align: center;">
-    <div class="volunteers_text_small" style="position: absolute; margin-top: 15vw; text-align: center;">
-	<p style="font-weight: bold;">{{ document.fragments.volunteers_text.text }}</p>
-    </div>
-    <img width="100%" src="/images/home/Benevoles.png">
 </div>
 <div class="cio-sponsors">
     <div class="container">
