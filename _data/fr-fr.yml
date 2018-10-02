@@ -27,6 +27,8 @@ nav:
       path: "/fr/sports"
     - title: "Médias"
       path: "/fr/medias"
+    - title: "PME"
+      path: "pme"
     - title: "FAQ"
       path: "/fr/faq"
     - title: "A propos"
