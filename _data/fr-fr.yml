@@ -28,7 +28,7 @@ nav:
     - title: "Médias"
       path: "/fr/medias"
     - title: "Fan'attitude"
-      path: "pme"
+      path: "/fr/pme"
     - title: "FAQ"
       path: "/fr/faq"
     - title: "A propos"
