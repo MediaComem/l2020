@@ -27,8 +27,6 @@ nav:
       path: "/fr/sports"
     - title: "Médias"
       path: "/fr/medias"
-    - title: "Fan'attitude"
-      path: "/fr/pme"
     - title: "FAQ"
       path: "/fr/faq"
     - title: "A propos"
