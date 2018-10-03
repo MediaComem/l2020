@@ -1,4 +1,1 @@
 ErrorDocument 404 /
-
-RewriteEngine On
-Redirect permanent /pme https://www.lausanne2020.sport/fr/pme
