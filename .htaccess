@@ -1,4 +1,4 @@
 ErrorDocument 404 /
 
 RewriteEngine On
-Redirect 301 /pme https://www.lausanne2020.sport/fr/pme
+Redirect permanent /pme https://www.lausanne2020.sport/fr/pme
