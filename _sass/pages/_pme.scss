@@ -4,7 +4,55 @@
 .pme-title {
   margin-top: 50px;
   margin-bottom: 30px;
+  float:left;
+  width: 100%;
+  @media (max-width: 500px) {
+    margin-bottom: 0px;
+  }
 }
 .pme-text {
   margin-bottom: 50px;
+}
+.pme-bouton {
+  float: right;
+  margin-right: 0px;
+  @media (max-width: 500px) {
+    width: 100%;
+    text-align: center;
+  }
+}
+.pme-left {
+  width: 90%;
+  float: left;
+  @media (max-width: 991px) {
+    width: 80%;
+  }
+  @media (max-width: 500px) {
+    width: 100%;
+  }
+}
+.pme-right {
+  width: 10%;
+  float: left;
+  height: 100px;
+  margin-top: 30px;
+  @media (max-width: 1200px) {
+    margin-top: 45px;
+  }
+  @media (max-width: 991px) {
+    width: 20%;
+  }
+  @media (max-width: 718px) {
+    margin-top: 64px;
+    height: 110px;
+  }
+  @media (max-width: 500px) {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    height: 50px;
+  }
+}
+.more-pme {
+    margin-right: 0px;
 }
