@@ -232,6 +232,7 @@ html .hero {
     .container>img {
         padding-bottom: 40px;
         width:325px;
+	padding-top: 20px;
     }
     .sponsors-list {
         padding-left: 0;
@@ -268,4 +269,58 @@ html .hero {
     text-transform: uppercase;
     font-size: 2.5vw;
     margin-left: 5vw;
+}
+.socials_left {
+    @media(max-width: 1514px) {
+	height: 420px;
+    }
+    @media(max-width: 1124px) {
+	height: 450px;
+    }
+    @media(max-width: 1089px) {
+	height: 470px;
+    }
+    @media(max-width: 991px) {
+	height: 360px;
+    }
+    @media(max-width: 894px) {
+	height: 400px;
+    }
+    @media(max-width: 767px) {
+	.first-title {
+	    padding-top: 20px !important;
+    	    margin-top: 0px;}height: 400px;
+	}
+	.cio-sponsors {
+		padding-top: 10px;
+	}
+    }
+}	
+.newsletter_cta {
+    @media(max-width: 1514px) {
+        height: 420px;
+    }
+    @media(max-width: 1124px) {
+	height: 450px;
+    }
+    @media(max-width: 1089px) {
+	height: 470px;
+    }
+    @media(max-width: 991px) {
+	height: 360px;
+    }
+    @media(max-width: 894px) {
+	height: 400px;
+    }
+    @media(max-width: 767px) {
+	.first-title {
+	    padding-top: 20px !important;
+    	    margin-top: 0px;}height: 400px;
+	}
+    }
+}
+@media(max-width: 767px) {
+    .cio-sponsors {
+	padding-top: 10px;
+    }
 }
