@@ -271,6 +271,11 @@ html .hero {
     margin-left: 5vw;
 }
 .socials_left {
+    padding-left: 100px; 
+    padding-right: 50px; 
+    height: 400px; 
+    background-color: #CF0072;
+	
     @media(max-width: 1514px) {
 	height: 420px;
     }
@@ -294,6 +299,13 @@ html .hero {
     }
 }	
 .newsletter_cta {
+    padding-top: 0px !important; 
+    padding-right: 50px; 
+    padding-bottom: 0px; 
+    padding-left: 100px; 
+    background-color: #0088CE; 
+    height: 400px;
+	
     @media(max-width: 1514px) {
         height: 420px;
     }
