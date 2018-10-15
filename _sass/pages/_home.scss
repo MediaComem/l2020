@@ -294,7 +294,7 @@ html .hero {
     @media(max-width: 767px) {
 	.first-title {
 	    padding-top: 20px !important;
-    	    margin-top: 0px;
+    	    margin-top: 0px !important;
 	}
     }
 }	
@@ -324,7 +324,7 @@ html .hero {
     @media(max-width: 767px) {
 	.first-title {
 	    padding-top: 20px !important;
-    	    margin-top: 0px;
+    	    margin-top: 0px !important;
 	}
     }
 }
