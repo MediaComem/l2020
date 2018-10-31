@@ -3,26 +3,26 @@ html .hero {
     height: 900px;
     margin-top: 190px;
     .container {
-        padding-top: 50px !important;
-	margin-left: 250px;
+        padding-top: 10px !important;
+	margin-left: 50px;
 	width: 1500px;
     }
     @media (max-width: 1921px) {
         height: 800px;
 	margin-top: 190px;
 	.container {
-            padding-top: 50px !important;
-	    margin-left: 300px;
-	    width: 1100px;
+            padding-top: 10px !important;
+	    margin-left: 50px;
+	    width: 1200px;
         }
     } // Width of image
     @media (max-width: 1651px) {
         height: 700px;
 	margin-top: 190px;
 	.container {
-            padding-top: 20px !important;
-	    margin-left: 280px;
-	    width: 1000px;
+            padding-top: 10px !important;
+	    margin-left: 50px;
+	    width: 1200px;
         }
     }
     @media (max-width: 1501px) {
@@ -30,7 +30,7 @@ html .hero {
 	margin-top: 190px;
 	.container {
             padding-top: 20px !important;
-	    margin-left: 250px;
+	    margin-left: 20px;
 	    width: 800px;
         }
         .the_claim {
@@ -45,7 +45,7 @@ html .hero {
         margin-top: 190px;
 	.container {
             padding-top: 10px !important;
-	    margin-left: 250px;
+	    margin-left: 10px;
 	    width: 750px;
         }
     }
@@ -53,9 +53,9 @@ html .hero {
         height: 500px;
         margin-top: 190px;
 	.container {
-            padding-top: 0px !important;
-	    margin-left: 250px;
-	    width: 700px;
+            padding-top: 10px !important;
+	    margin-left: 10px;
+	    width: 800px;
         }
     }
     @media (max-width: 990px) {
@@ -63,15 +63,15 @@ html .hero {
         margin-top:220px;
 	.container {
             padding-top: 0px !important;
-	    margin-left: 100px;
+	    margin-left: 10px;
 	    width: 650px;
         }
 	.the_claim {
             font-size: 20px;
             line-height: 30px;
             font-weight: 600;
-            padding-left: 50px;
-	    margin-top: 40px;
+            padding-left: 0px;
+	    margin-top: 20px;
         }
     }
     @media (max-width: 830px) {
@@ -79,14 +79,14 @@ html .hero {
         margin-top: 220px;
 	.container {
             padding-top: 0px !important;
-	    margin-left: 50px;
+	    margin-left: 0px;
 	    width: 600px;
         }
         .the_claim {
             font-size: 20px;
             line-height: 30px;
             font-weight: 600;
-            padding-left: 100px;
+            padding-left: 10px;
 	    margin-top: 20px;
         }
     }
@@ -94,7 +94,7 @@ html .hero {
         height:300px;
         margin-top:200px;
 	.container {
-	    margin-left: 50px;
+	    margin-left: 10px;
 	    width: 480px;
 	    padding-top: 0px;
         }
@@ -118,7 +118,7 @@ html .hero {
             font-weight: 600;
             padding-top: 0px;
 	    margin-top: 10px;
-	    padding-left: 50px;
+	    padding-left: 0px;
         }
     }
 }
@@ -164,6 +164,8 @@ html .hero {
     animation-fill-mode: both;
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 5px;
 }
 
 .about_yog_section {
@@ -232,7 +234,7 @@ html .hero {
     .container>img {
         padding-bottom: 40px;
         width:325px;
-	padding-top: 20px;
+	      padding-top: 20px;
     }
     .sponsors-list {
         padding-left: 0;
@@ -249,13 +251,13 @@ html .hero {
     position: absolute;
     @media(max-width: 991px) {
         visibility: visible !important;
-	position: relative !important;
+	      position: relative !important;
     }
 }
 .volunteers_big{
     @media(max-width: 991px) {
-	visibility: hidden;
-	position: absolute;
+	      visibility: hidden;
+	      position: absolute;
     }
 }
 .volunteers_text p {
@@ -277,33 +279,33 @@ html .hero {
     background-color: #CF0072;
 	
     @media(max-width: 1514px) {
-	height: 420px;
+	      height: 420px;
     }
     @media(max-width: 1124px) {
-	height: 450px;
+	      height: 450px;
     }
     @media(max-width: 1089px) {
-	height: 470px;
+	      height: 470px;
     }
     @media(max-width: 991px) {
-	height: 360px;
+	      height: 360px;
     }
     @media(max-width: 894px) {
-	height: 400px;
+	      height: 400px;
     }
     @media(max-width: 767px) {
-	.first-title {
-	    padding-top: 20px !important;
-    	    margin-top: 0px !important;
-	}
-	padding-left: 50px;
-	height: 320px;
+	      .first-title {
+	          padding-top: 20px !important;
+    	      margin-top: 0px !important;
+	      }
+	      padding-left: 50px;
+	      height: 320px;
     }
     @media(max-width: 628px) {
-	height: 350px;
+	      height: 350px;
     }	
     @media(max-width: 387px) {
-	height: 380px;
+	      height: 380px;
     }
 }	
 .newsletter_cta {
@@ -318,39 +320,49 @@ html .hero {
         height: 420px;
     }
     @media(max-width: 1124px) {
-	height: 450px;
+	      height: 450px;
     }
     @media(max-width: 1089px) {
-	height: 470px;
+	      height: 470px;
     }
     @media(max-width: 991px) {
-	height: 360px;
+	      height: 360px;
     }
     @media(max-width: 894px) {
-	height: 400px;
+	      height: 400px;
     }
     @media(max-width: 767px) {
-	.first-title {
-	    padding-top: 20px !important;
-    	    margin-top: 0px !important;
-	}
-	padding-left: 50px;
+	      .first-title {
+	          padding-top: 20px !important;
+    	      margin-top: 0px !important;
+	      }
+	      padding-left: 50px;
     }
     @media(max-width: 551px) {
-	height: 420px;
+	      height: 420px;
     }
     @media(max-width: 494px) {
-	height: 450px;
+	      height: 450px;
     }
     @media(max-width: 416px) {
-	height: 480px;
+	      height: 480px;
     }
     @media(max-width: 362px) {
-	height: 550px;
+	      height: 550px;
     }
 }
 @media(max-width: 767px) {
     .cio-sponsors {
-	padding-top: 10px;
+	      padding-top: 10px;
     }
+.partners-title {
+    color: black;
+    text-align: left;
+    margin-bottom: 0px;
+    font-size: 13px;
 }
+.hr-line {
+    margin-top: -12px;
+    border-top: 1px solid #000000;
+  }
+

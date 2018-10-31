@@ -25,7 +25,7 @@ layout: default
 <div class="hero">
     <div class="container">
     {% for post in document.fragments.claims_list.group_documents %}
-        <h1 class="the_claim">{{post.fragments.claim.text}}<br/><span>{{post.fragments.claim_part_2.text}}</span></h1>
+        <h1 class="the_claim">{{post.fragments.claim.text}}<br/><span style="color: white;">{{post.fragments.claim_part_2.text}}</span></h1>
     {% endfor %}
     </div>
 </div>
@@ -35,7 +35,7 @@ layout: default
         <h1 class="h1_big_news">{{document.fragments.news_title.text}}</h1>
         <div class="row">
             {% assign news = site.prismicData.collections.news | sort:'fragments.publication_date.date' | reverse  %}
-            {% for news_item in news limit:3 %}     
+            {% for news_item in news limit:6 %}     
             <div class="come-in-module col-sm-6 col-md-4">
                 <a class="wrap_a" href="/{{ site.langShort }}/news/{{ news_item.slug }}">
                     <div class="new col-md-12">
@@ -204,6 +204,86 @@ layout: default
             </li>
             <li>
                 <img src="/images/cio-partners/Visa_logo_200.png" alt="Visa">
+            </li>
+        </ul>
+	<h4 class="partners-title">OFFICIAL PARTNERS</h4>
+	<hr class="hr-line" style="margin-left: 145px;">
+	<hr style="border-top: 1px solid #fff;">
+	<ul class="sponsors-list come-in-module">
+            <li>
+                <img src="/images/cio-partners/Retraite_Populaire.png" alt="Retraites Populaires">
+            </li>
+	    <li>
+                <img src="/images/cio-partners/Swisscom.png" alt="Swisscom">
+            </li>
+            <li>
+                <img src="/images/cio-partners/ECA.png" alt="ECA">
+            </li>
+	</ul>
+	<h4 class="partners-title">OFFICIAL PROVIDERS</h4>
+	<hr class="hr-line" style="margin-left: 153px;">
+	<hr style="border-top: 1px solid #fff;">
+	<ul class="sponsors-list come-in-module">
+            <li>
+                <img src="/images/cio-partners/Loyco.png" alt="Loyco">
+            </li>
+            <li>
+                <img src="/images/cio-partners/DB_Schenker.png" alt="DB Schenker">
+            </li>	
+            <li>
+                <img src="/images/cio-partners/Quartier_Du_Flon.png" alt="Quartier du Flon">
+            </li>
+        </ul>
+	<h4 class="partners-title">INSTITUTIONAL SUPPORT</h4>
+	<hr class="hr-line" style="margin-left: 188px;">
+	<hr style="border-top: 1px solid #fff;">
+	<ul class="sponsors-list come-in-module">
+            <li>
+                <img src="/images/cio-partners/Ville_Lausanne.png" alt="Ville de Lausanne">
+            </li>
+            <li>
+                <img src="/images/cio-partners/Swiss_Olympic.png" alt="Swiss Olympic">
+            </li>
+            <li>
+                <img src="/images/cio-partners/Canton_Vaud.png" alt="Canton de Vaud">
+            </li>
+            <li>
+                <img src="/images/cio-partners/Confederation_Suisse.png" alt="Confédération Suisse">
+            </li>
+            <li>
+                <img src="/images/cio-partners/Fond_Du_Sport_Vaudois.png" alt="Fond du Sport Vaudois">
+            </li>
+        </ul>
+	<h4 class="partners-title">INSTITUTIONAL PARTNERS</h4>
+	<hr class="hr-line" style="margin-left: 188px;">
+	<hr style="border-top: 1px solid #fff;">
+	<ul class="sponsors-list come-in-module">
+            <li>
+                <img src="/images/cio-partners/Eracom.png" alt="Eracom">
+            </li>
+            <li>
+                <img src="/images/cio-partners/EDC.png" alt="EDC">
+            </li>
+            <li>
+                <img src="/images/cio-partners/Ecal.png" alt="Ecal">
+            </li>
+            <li>
+                <img src="/images/cio-partners/EHL.png" alt="EHL">
+            </li>
+            <li>
+                <img src="/images/cio-partners/EPFL.png" alt="EPFL">
+            </li>
+            <li>
+                <img src="/images/cio-partners/HEMU.png" alt="HEMU">
+            </li>
+	    <li>
+                <img src="/images/cio-partners/CHUV.png" alt="CHUV">
+            </li>
+            <li>
+                <img src="/images/cio-partners/UNIL.png" alt="UNIL">
+            </li>
+            <li>
+                <img src="/images/cio-partners/HEIG-VD.png" alt="HEIG-VD">
             </li>
         </ul>
     </div>

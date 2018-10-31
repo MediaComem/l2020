@@ -20,3 +20,6 @@
 /contact/*  /en/contact/:splat  302
 /faq  /en/faq  302
 /faq/*  /en/faq/:splat  302
+/pme /fr/pme 302
+https://www.lausanne2020.com/* https://www.lausanne2020.sport/:splat 301!
+https://lausanne2020.com/* https://www.lausanne2020.sport/:splat 301!
