@@ -133,7 +133,7 @@ ol {
 .btn {
     display: inline-block;
     padding: 9px 15px;
-    background-color: $purple-primary;
+    background-color: #0088CE;
     color: white;
     border: 0;
     line-height: inherit;
@@ -180,8 +180,7 @@ input[type=submit]{
 .shop_section,
 .about_yog_section,
 #sites2 {
-    background-color: $purple-primary;
-    background-image: url('../images/layout/bkg_magenta.svg');
+    background-color: #CF0072;
     background-position: 50% 50%;
     background-size: cover;
     color: #fff;
@@ -190,7 +189,6 @@ input[type=submit]{
 
 .social_feed_section,
 .about_yog_2,
-.newsletter_cta,
 .single-news-content header,
 .sites,
 .faq,
@@ -198,14 +196,12 @@ input[type=submit]{
 .news_section,
 .pme,
 .key_numbers {
-    background-color: $blue-primary;
-    background-image: url('../images/layout/bkg_blue.svg');
+    background-color: #0088CE;
     background-position: 0px 0px;
     background-size: cover;
     color: #fff;
 }
 
-.newsletter_cta,
 .jobs,
 .about_yog,
 .heritage,
@@ -335,5 +331,3 @@ input[type=submit]{
    max-width: 90%;
    margin-top: 0px;
 }
-
-
