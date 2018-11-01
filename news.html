@@ -2,6 +2,38 @@
 layout: default
 ---
 
+{% capture nowyear %}{{ site.time | date: '%Y' }}{% endcapture %}
+{% assign news2017 = 0 %}
+{% assign news2018 = 0 %}
+{% assign news2019 = 0 %}
+{% assign news2020 = 0 %}
+{% assign newsall1 = 0 %}
+{% assign newsall2 = 0 %}
+{% assign newsall3 = 0 %}
+{% for new in site.prismicData.collections.news %}
+  {% capture newyear %}{{ new.fragments.publication_date.date | date: '%Y' }}{% endcapture %}
+  {{newyear}}
+  {% if newyear == '2017' %}
+    {% assign news2017 = news2017 | plus: 1 %}
+  {% endif %}
+  {% if newyear == '2018' %}
+    {% assign news2018 = news2018 | plus: 1 %}
+  {% endif %}
+  {% if newyear == '2019' %}
+    {% assign news2019 = news2019 | plus: 1 %}
+  {% endif %}
+  {% if newyear == '2020' %}
+    {% assign news2020 = news2020 | plus: 1 %}
+  {% endif %}
+  {% if newsall3 <=  99 %}
+    {% assign newsall3 = newsall3 | plus: 1 %}
+  {% elseif newsall2 <= 99 %}
+    {% assign newsall2 = newsall2 | plus: 1 %}
+  {% elseif newsall1 <= 99 %}
+    {% assign newsall1 = newsall1 | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
 <div class="news-page">
   <div class="container">
     {% assign document = site.prismicData.single.page_home %} 
@@ -37,6 +69,12 @@ layout: default
             </div>
         </div>
       {% endfor %}
+    </div>
+    <div class="row">
+      <div class="archive-links">
+      {% if newsall3 > 99 %}
+          <a href="/{{ site.langShort }}/news-archives/2018">{{ site.prismicData.single.base.fragments.news_years_archives_title.text }} Plus de news</a>
+      {% endif %}
     </div>
   </div>
 </div>
