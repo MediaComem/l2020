@@ -27,9 +27,9 @@ layout: default
   {% endif %}
   {% if newsall3 <=  99 %}
     {% assign newsall3 = newsall3 | plus: 1 %}
-  {% elseif newsall2 <= 99 %}
+  {% else if newsall2 <= 99 %}
     {% assign newsall2 = newsall2 | plus: 1 %}
-  {% elseif newsall1 <= 99 %}
+  {% else if newsall1 <= 99 %}
     {% assign newsall1 = newsall1 | plus: 1 %}
   {% endif %}
 {% endfor %}
