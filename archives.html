@@ -1,0 +1,71 @@
+---
+layout: default
+---
+{% capture nowyear %}{{ site.time | date: '%Y' }}{% endcapture %}
+{% assign news2017 = 0 %}
+{% assign news2018 = 0 %}
+{% assign news2019 = 0 %}
+{% assign news2020 = 0 %}
+{% for new in site.prismicData.collections.news %}
+  {% capture newyear %}{{ new.fragments.publication_date.date | date: '%Y' }}{% endcapture %}
+  {{newyear}}
+  {% if newyear == '2017' %}
+    {% assign news2017 = news2017 | plus: 1 %}
+  {% endif %}
+  {% if newyear == '2018' %}
+    {% assign news2018 = news2018 | plus: 1 %}
+  {% endif %}
+  {% if newyear == '2019' %}
+    {% assign news2019 = news2019 | plus: 1 %}
+  {% endif %}
+  {% if newyear == '2020' %}
+    {% assign news2020 = news2020 | plus: 1 %}
+  {% endif %}
+{% endfor %}
+<div class="news-page">
+  <div class="container">
+    {% assign document = site.prismicData.single.page_home %} 
+    <h1 class="h1_big_news h1_newsletter_cta">{{document.fragments.news_title.text}}</h1>
+      
+    <div class="row">
+      {% assign news = site.prismicData.collections.news | sort:'fragments.publication_date.date' | reverse  %}
+      {% for news_item in news offset:66 %}     
+        <div class="come-in-module col-sm-6 col-md-4">
+           <a class="wrap_a" href="/{{ site.langShort }}/news/{{ news_item.slug }}">
+              <div class="new col-md-12">
+                  <div class="wrap_media">
+                    <picture class="grow">
+                      <source srcset="{{ news_item.fragments.image.url }}" media="(max-width: 400px)">
+                      <source srcset="{{ news_item.fragments.image.view_mobile_url }}" media="(max-width: 768px)">
+                      <source srcset="{{ news_item.fragments.image.url }}" media="(min-width: 768px)">
+                      <img class="grow" src="{{news_item.fragments.image.view_mobile_url }}" alt="{{ news_item.fragments.image.alt }}">
+                    </picture>
+                  </div>
+                  <h1 class="h1_news">
+                      {{ news_item.fragments.title.text }}
+                  </h1>
+                  <p class="p_news">
+                      {{ news_item.fragments.lead.text  | markdownify | newline_to_br | remove: '<p>' | remove: '</p>'}}
+                  </p>
+              </div>
+            </a>
+            <div class="new_meta">
+                <p class="news_date">
+                    <time pubdate datetime="{{news_item.fragments.publication_date.date | date_to_xmlschema}}" title="{{news_item.fragments.publication_date.date | date_to_xmlschema | date: '%d.%m'}}">{{news_item.fragments.publication_date.date | date_to_xmlschema | date: "%d.%m.%Y"}}</time>
+                    <a href="/{{site.langShort}}/news/{{ news_item.slug }}">{{ site.prismicData.single.page_home.fragments.individual_news_link_to_read_more.text }}</a>
+                </p>
+            </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="row">
+      <div class="archive-links">
+        {% if nowyear >= '2020' %}
+          {% if news2020 > 9 %}
+            <a href="/{{ site.langShort }}/news-archives/2020">{{ site.prismicData.single.base.fragments.news_years_archives_title.text }} 2020</a>
+          {% endif %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
