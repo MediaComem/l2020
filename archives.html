@@ -29,7 +29,7 @@ layout: default
       
     <div class="row">
       {% assign news = site.prismicData.collections.news | sort:'fragments.publication_date.date' | reverse  %}
-      {% for news_item in news offset:66 %}     
+      {% for news_item in news %}     
         <div class="come-in-module col-sm-6 col-md-4">
            <a class="wrap_a" href="/{{ site.langShort }}/news/{{ news_item.slug }}">
               <div class="new col-md-12">
