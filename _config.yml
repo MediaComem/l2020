@@ -72,7 +72,7 @@ prismic:
       # Layout file for this collection
       layout: single-news.html
       # Max quantity of items (optional, default is 20)
-      page_size: 100
+      page_size: 200
       # Generate output files or not (default: false)
       output: true
     newsBA:
