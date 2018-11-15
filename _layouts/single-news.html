@@ -34,7 +34,7 @@ layout: default
 		<h1>{{page.document.fragments.title.text}}</h1>
 		<p class="p_news">{{ page.document.fragments.body.html | markdownify | newline_to_br | remove: '<p>' | remove: '</p>'}}</p>
 		{% for post in document.fragments.img_gallery.group_documents %}
-			<img src="{{ document.fragments.img_gallery.getImage("img_element").url }}"
+			<img src="{{ document.fragments.img_gallery.getImage("img_element").url }}"/>
 		{% endfor %}
     
     <p class="news_date" style="width: 50%; float: left;">
