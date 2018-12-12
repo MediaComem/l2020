@@ -2,10 +2,10 @@ html .hero {
     background-size: cover;
     height: 900px;
     margin-top: 190px;
+    width: 80%;
     .container {
         padding-top: 10px !important;
 	margin-left: 50px;
-	width: 1500px;
     }
     @media (max-width: 1921px) {
         height: 800px;
@@ -13,7 +13,6 @@ html .hero {
 	.container {
             padding-top: 10px !important;
 	    margin-left: 50px;
-	    width: 1200px;
         }
     } // Width of image
     @media (max-width: 1651px) {
@@ -22,7 +21,6 @@ html .hero {
 	.container {
             padding-top: 10px !important;
 	    margin-left: 50px;
-	    width: 1200px;
         }
     }
     @media (max-width: 1501px) {
@@ -31,7 +29,6 @@ html .hero {
 	.container {
             padding-top: 20px !important;
 	    margin-left: 20px;
-	    width: 800px;
         }
         .the_claim {
             font-size: 30px;
@@ -46,7 +43,6 @@ html .hero {
 	.container {
             padding-top: 10px !important;
 	    margin-left: 10px;
-	    width: 750px;
         }
     }
     @media (max-width: 1155px) {
@@ -55,7 +51,6 @@ html .hero {
 	.container {
             padding-top: 10px !important;
 	    margin-left: 10px;
-	    width: 800px;
         }
     }
     @media (max-width: 990px) {
@@ -64,7 +59,6 @@ html .hero {
 	.container {
             padding-top: 0px !important;
 	    margin-left: 10px;
-	    width: 650px;
         }
 	.the_claim {
             font-size: 20px;
@@ -80,7 +74,6 @@ html .hero {
 	.container {
             padding-top: 0px !important;
 	    margin-left: 0px;
-	    width: 600px;
         }
         .the_claim {
             font-size: 20px;
@@ -95,7 +88,6 @@ html .hero {
         margin-top:200px;
 	.container {
 	    margin-left: 10px;
-	    width: 480px;
 	    padding-top: 0px;
         }
 	.the_claim {
@@ -110,7 +102,6 @@ html .hero {
 	margin-top: 200px;
 	.container {
 	    margin-left: 0px;
-	    width: 400px;
         }
         .the_claim {
             font-size: 10px;
