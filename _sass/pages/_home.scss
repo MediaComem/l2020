@@ -2,10 +2,10 @@ html .hero {
     background-size: cover;
     height: 900px;
     margin-top: 190px;
-    width: 80%;
     .container {
         padding-top: 10px !important;
 	margin-left: 50px;
+    	width: 90%;
     }
     @media (max-width: 1921px) {
         height: 800px;
