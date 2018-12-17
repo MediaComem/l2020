@@ -257,6 +257,11 @@ html .hero {
 	      position: absolute;
     }
 }
+@media(max-width: 991px) {
+    .navbar-collapse {
+    	z-index: -1;
+    }
+}
 .volunteers_text p {
     text-align: center !important;
     text-transform: uppercase;
