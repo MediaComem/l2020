@@ -6,21 +6,6 @@ layout: default
         html .hero{
             background-image: url('{{ document.fragments.claims_image.url }}');
         }
-        @media (max-width: 992px) {
-            html .hero{
-                background-image: url('{{ document.fragments.claims_image.view_desktop_url }}');
-            }
-        }
-        @media (max-width: 768px) {
-            html .hero{
-                background-image: url('{{ document.fragments.claims_image.view_tablet_url }}');
-            }
-        }
-        @media (max-width: 576px) {
-            html .hero{
-                background-image: url('{{ document.fragments.claims_image.view_mobile_url }}');
-            }
-        }
 </style>
 <div class="hero">
     <div class="container">
