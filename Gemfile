@@ -11,7 +11,7 @@ ruby "2.4.3"
 # Happy Jekylling!
 gem 'dotenv', :groups => [:development, :test]
 
-gem "jekyll", "3.4.3"
+gem "jekyll"
 gem 'wdm', '~> 0.1.0' if Gem.win_platform?
 
 gem "koala", "~> 2.2"
