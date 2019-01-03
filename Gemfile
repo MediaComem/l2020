@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby "2.3.3"
+ruby "2.4.3"
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -11,7 +11,7 @@ ruby "2.3.3"
 # Happy Jekylling!
 gem 'dotenv', :groups => [:development, :test]
 
-gem "jekyll", "3.4.3"
+gem "jekyll", "3.8.5"
 gem 'wdm', '~> 0.1.0' if Gem.win_platform?
 
 gem "koala", "~> 2.2"
