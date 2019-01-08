@@ -23,3 +23,4 @@
 /pme /fr/pme 302
 https://www.lausanne2020.com/* https://www.lausanne2020.sport/:splat 301!
 https://lausanne2020.com/* https://www.lausanne2020.sport/:splat 301!
+/shop  https://lausanne2020.many-ways.ch/  302

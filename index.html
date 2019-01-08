@@ -6,26 +6,11 @@ layout: default
         html .hero{
             background-image: url('{{ document.fragments.claims_image.url }}');
         }
-        @media (max-width: 992px) {
-            html .hero{
-                background-image: url('{{ document.fragments.claims_image.view_desktop_url }}');
-            }
-        }
-        @media (max-width: 768px) {
-            html .hero{
-                background-image: url('{{ document.fragments.claims_image.view_tablet_url }}');
-            }
-        }
-        @media (max-width: 576px) {
-            html .hero{
-                background-image: url('{{ document.fragments.claims_image.view_mobile_url }}');
-            }
-        }
 </style>
 <div class="hero">
     <div class="container">
     {% for post in document.fragments.claims_list.group_documents %}
-        <h1 class="the_claim">{{post.fragments.claim.text}}<br/><span style="color: white;">{{post.fragments.claim_part_2.text}}</span></h1>
+        <!--<h1 class="the_claim">{{post.fragments.claim.text}}<br/><span style="color: #ffffff;">{{post.fragments.claim_part_2.text}}</span></h1>-->
     {% endfor %}
     </div>
 </div>
@@ -283,7 +268,7 @@ layout: default
                 <img src="/images/cio-partners/Coca-Cola_logo_200.png" alt="Coca-Cola">
             </li>
             <li>
-                <img src="/images/cio-partners/alibaba-logo_200.png" alt="Alibaba Group">
+                <img src="/images/cio-partners/Alibaba_200.png" alt="Alibaba Group">
             </li>
             <li>
                 <img src="/images/cio-partners/Atos_logo_200.png" alt="Atos">
@@ -310,7 +295,7 @@ layout: default
                 <img src="/images/cio-partners/PG_logo_200.png" alt="PG">
             </li>
             <li> 
-                <img src="/images/cio-partners/Samsung_logo_200.png" alt="Samsung">
+                <img src="/images/cio-partners/Samsung_200.png" alt="Samsung">
             </li>
             <li>
                 <img src="/images/cio-partners/Toyota_logo_200.png" alt="Toyota">
