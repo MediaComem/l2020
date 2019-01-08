@@ -1,11 +1,12 @@
+// Banner on homepage *************************************
 html .hero {
-    background-size: contain;
-    height: 44.5vw !important;
+    background-size: cover;
+    height: 900px;
     margin-top: 190px;
     .container {
         padding-top: 10px !important;
 	margin-left: 50px;
-    	width: 90%;
+	width: 1500px;
     }
     @media (max-width: 1921px) {
         height: 800px;
@@ -13,14 +14,16 @@ html .hero {
 	.container {
             padding-top: 10px !important;
 	    margin-left: 50px;
+	    width: 1200px;
         }
-    } // Width of image
+    }
     @media (max-width: 1651px) {
         height: 700px;
 	margin-top: 190px;
 	.container {
             padding-top: 10px !important;
 	    margin-left: 50px;
+	    width: 1200px;
         }
     }
     @media (max-width: 1501px) {
@@ -29,6 +32,7 @@ html .hero {
 	.container {
             padding-top: 20px !important;
 	    margin-left: 20px;
+	    width: 800px;
         }
         .the_claim {
             font-size: 30px;
@@ -43,6 +47,7 @@ html .hero {
 	.container {
             padding-top: 10px !important;
 	    margin-left: 10px;
+	    width: 750px;
         }
     }
     @media (max-width: 1155px) {
@@ -51,6 +56,7 @@ html .hero {
 	.container {
             padding-top: 10px !important;
 	    margin-left: 10px;
+	    width: 800px;
         }
     }
     @media (max-width: 990px) {
@@ -59,6 +65,7 @@ html .hero {
 	.container {
             padding-top: 0px !important;
 	    margin-left: 10px;
+	    width: 650px;
         }
 	.the_claim {
             font-size: 20px;
@@ -74,6 +81,7 @@ html .hero {
 	.container {
             padding-top: 0px !important;
 	    margin-left: 0px;
+	    width: 600px;
         }
         .the_claim {
             font-size: 20px;
@@ -88,6 +96,7 @@ html .hero {
         margin-top:200px;
 	.container {
 	    margin-left: 10px;
+	    width: 480px;
 	    padding-top: 0px;
         }
 	.the_claim {
@@ -102,6 +111,7 @@ html .hero {
 	margin-top: 200px;
 	.container {
 	    margin-left: 0px;
+	    width: 400px;
         }
         .the_claim {
             font-size: 10px;
@@ -114,30 +124,6 @@ html .hero {
     }
 }
 
-.shop_section {
-    text-align: center;
-}
-
-.h1_shop_section {
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    font-size: 30px;
-}
-
-.h2_shop_section {
-    text-align: center;
-    margin-bottom: 50px;
-    font-size: 24px;
-}
-
-#text_video {
-    margin-bottom: 50px;
-}
-
-#more_video {
-    margin-top: 25px;
-}
 .the_claim {
     position: absolute;
     color: #ffffff;
@@ -155,9 +141,11 @@ html .hero {
     animation-fill-mode: both;
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
+    background-color: rgba(0, 0, 0, 0.4);
     padding: 5px;
 }
 
+// About *************************************
 .about_yog_section {
     height: auto;
     padding-top: 30px;
@@ -177,14 +165,35 @@ html .hero {
     margin-top: 20px;
 }
 
-.marchandising_section {
-    padding-bottom: 30px;
+// Volunteers infos ****************************
+.volunteers_small {
+    visibility: hidden;
+    position: absolute;
+    @media(max-width: 991px) {
+        visibility: visible !important;
+	      position: relative !important;
+    }
+}
+.volunteers_big{
+    @media(max-width: 991px) {
+	      visibility: hidden;
+	      position: absolute;
+    }
+}
+.volunteers_text p {
+    text-align: center !important;
+    text-transform: uppercase;
+    font-size: 2.2vw;
+    margin-left: 5vw;
+}
+.volunteers_text_small p {
+    text-align: center !important;
+    text-transform: uppercase;
+    font-size: 2.5vw;
+    margin-left: 5vw;
 }
 
-.shop_cta {
-    color: #CF0072;
-}
-
+// Newsletter and Socials cta *******************************
 .newsletter-text {
     padding-right: 10px;
     width: 100%;
@@ -217,63 +226,6 @@ html .hero {
     }
 }
 
-.cio-sponsors {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    margin-top: 300px;
-    @media (max-width: 991px) {
-	margin-top: 700px;	
-    }
-    @media (max-width: 767px) {
-	margin-top: 0px;	
-    }
-    text-align: center; // First olympic banner
-    .container>img {
-        padding-bottom: 40px;
-        width:325px;
-	      padding-top: 20px;
-    }
-    .sponsors-list {
-        padding-left: 0;
-    }
-    .sponsors-list li {
-        display: inline-block;
-        vertical-align: middle;
-        margin: 0 34px 30px;
-        width: 140px;
-    }
-}
-.volunteers_small {
-    visibility: hidden;
-    position: absolute;
-    @media(max-width: 991px) {
-        visibility: visible !important;
-	      position: relative !important;
-    }
-}
-.volunteers_big{
-    @media(max-width: 991px) {
-	      visibility: hidden;
-	      position: absolute;
-    }
-}
-@media(max-width: 991px) {
-    .navbar-collapse {
-    	margin-top: 125px;
-    }
-}
-.volunteers_text p {
-    text-align: center !important;
-    text-transform: uppercase;
-    font-size: 2.2vw;
-    margin-left: 5vw;
-}
-.volunteers_text_small p {
-    text-align: center !important;
-    text-transform: uppercase;
-    font-size: 2.5vw;
-    margin-left: 5vw;
-}
 .socials_left {
     padding-left: 100px; 
     padding-right: 50px; 
@@ -353,22 +305,65 @@ html .hero {
 	      height: 550px;
     }
 }
+
+// Calendrier *******************************
+.calendrier {
+    padding: 12px 12px 10px 12px !important;
+    margin-left: 10px !important;
+    margin-bottom: -8px !important;
+}
+
+.addeventatc_icon {
+    left: 6px !important;
+    top: 4px !important;
+    width: 12px !important;
+    height: 12px !important;
+    background-size: 12px 12px !important;
+}
+
+
+// Partners *********************************
+.cio-sponsors {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 300px;
+    @media (max-width: 991px) {
+	margin-top: 700px;	
+    }
+    @media (max-width: 767px) {
+	margin-top: 0px;	
+    }
+    text-align: center; // First olympic banner
+    .container>img {
+        padding-bottom: 40px;
+        width:325px;
+	      padding-top: 20px;
+    }
+    .sponsors-list {
+        padding-left: 0;
+    }
+    .sponsors-list li {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 34px 30px;
+        width: 140px;
+    }
+}
+
 @media(max-width: 767px) {
     .cio-sponsors {
 	      padding-top: 10px;
     }
-    .navbar-collapse {
-    	margin-top: 0px;
-    }
 }
+
 .partners-title {
     color: black;
     text-align: left;
     margin-bottom: 0px;
     font-size: 13px;
 }
+
 .hr-line {
     margin-top: -12px;
     border-top: 1px solid #000000;
   }
-
