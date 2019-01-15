@@ -91,23 +91,23 @@ layout: default
 </div>	
 <div class="volunteers_big" style="text-align: center;">
     <div class="volunteers_text" style="position: absolute; margin-top: 15vw; text-align: center;">
-	<p style="font-weight: bold;">{{ document.fragments.volunteers_text.text }}</p>
+	<p style="font-weight: bold; color: white;">{{ document.fragments.volunteers_text.text }}</p>
     </div>
     <img width="100%" src="/images/home/Benevoles_half.png">
 </div>	
 <div class="volunteers_small" style="text-align: center;">
     <div class="volunteers_text_small" style="position: absolute; margin-top: 20vw; text-align: center;">
-	<p style="font-weight: bold;">{{ document.fragments.volunteers_text.text }}</p>
+	<p style="font-weight: bold; color: white;">{{ document.fragments.volunteers_text.text }}</p>
     </div>
     <img width="100%" src="/images/home/Benevoles.png">
 </div>
 <div class="socials_left col-md-6 col-sm-12">
-    <h3 class="first-title" style="margin-top: 40px;">
+    <h3 class="first-title" style="margin-top: 40px; color: white;">
     	<img height="60" style="margin-right: 20px;" src="/images/home/collab.png">
 	{{ document.fragments.socials_header1.text }}
     </h3>
-    <h3 class="second-title" style="margin-top: 20px !important; font-weight: normal;">{{ document.fragments.socials_header2.text }}</h3>
-    <p>
+    <h3 class="second-title" style="margin-top: 20px !important; font-weight: normal; color: white;">{{ document.fragments.socials_header2.text }}</h3>
+    <p style="color: white;">
 	{{ document.fragments.socials_text.text }}
     </p>
     <a class="socials_links" href="https://www.instagram.com/lausanne2020" target="_blank" rel="noopener">
@@ -125,12 +125,12 @@ layout: default
 </div>
 <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
 <div class="newsletter_cta col-md-6 col-sm-12">
-    <h3 class="first-title" style="margin-top: 40px ;">
+    <h3 class="first-title" style="margin-top: 40px; color: white;">
 	<img height="60" style="margin-right: 20px;" src="/images/home/nl.png">
 	{{ document.fragments.newsletter_header1.text }}
     </h3>
-    <h3 class="second-title" style="margin-top: 20px !important; font-weight: normal;">{{ document.fragments.newsletter_text.text }}</h3>
-    <p>{{ document.fragments.newsletter_heading.text }}</p>
+    <h3 class="second-title" style="margin-top: 20px !important; font-weight: normal; color: white;">{{ document.fragments.newsletter_text.text }}</h3>
+    <p style="color: white;">{{ document.fragments.newsletter_heading.text }}</p>
     {% if site.lang == "fr-fr" %}
     	<form class="newsletter_cta_form form flex stretch" action="https://lausanne2020.us15.list-manage.com/subscribe/post?u=0fa74011acb0c15df90b53c26&amp;id=5f3f817214" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     {% elsif site.lang == "de-de" %}
