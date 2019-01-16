@@ -63,25 +63,45 @@ layout: default
       <div class="archive-links">
       {% if nowyear >= '2017' %}
         {% if news2017 > 9 %}
-          <a href="/{{ site.langShort }}/news-archives/2017">{{ site.prismicData.single.base.fragments.news_years_archives_title.text }} 2017</a>
+          {% if news2017 > 90 %}
+            <a href="/{{ site.langShort }}/news-archives/2017">{{ site.prismicData.single.base.fragments.news_years_archives_title.text }} 2017 (1)</a>
+            <a href="/{{ site.langShort }}/news-archives/2017">{{ site.prismicData.single.base.fragments.news_years_archives_title.text }} 2017 (2)</a>
+          {% else %}
+            <a href="/{{ site.langShort }}/news-archives/2017">{{ site.prismicData.single.base.fragments.news_years_archives_title.text }} 2017</a>
+          {% endif %} 
         {% endif %}
       {% endif %}
         </br>
       {% if nowyear >= '2018' %}
         {% if news2018 > 9 %}
-          <a href="/{{ site.langShort }}/news-archives/2018">{{ site.prismicData.single.base.fragments.news_years_archives_title.text }} 2018</a>
+          {% if news2018 > 90 %}
+            <a href="/{{ site.langShort }}/news-archives/2018">{{ site.prismicData.single.base.fragments.news_years_archives_title.text }} 2018 (1)</a>
+            <a href="/{{ site.langShort }}/news-archives/2018">{{ site.prismicData.single.base.fragments.news_years_archives_title.text }} 2018 (2)</a>
+          {% else %}
+            <a href="/{{ site.langShort }}/news-archives/2018">{{ site.prismicData.single.base.fragments.news_years_archives_title.text }} 2018</a>
+          {% endif %} 
         {% endif %}
       {% endif %}
         </br>
       {% if nowyear >= '2019' %}
         {% if news2019 > 9 %}
-          <a href="/{{ site.langShort }}/news-archives/2019">{{ site.prismicData.single.base.fragments.news_years_archives_title.text }} 2019</a>
+          {% if news2019 > 90 %}
+            <a href="/{{ site.langShort }}/news-archives/2019">{{ site.prismicData.single.base.fragments.news_years_archives_title.text }} 2019 (1)</a>
+            <a href="/{{ site.langShort }}/news-archives/2019">{{ site.prismicData.single.base.fragments.news_years_archives_title.text }} 2019 (2)</a>
+          {% else %}
+            <a href="/{{ site.langShort }}/news-archives/2019">{{ site.prismicData.single.base.fragments.news_years_archives_title.text }} 2019</a>
+          {% endif %} 
         {% endif %}
       {% endif %}
         </br>
       {% if nowyear >= '2020' %}
         {% if news2020 > 9 %}
-          <a href="/{{ site.langShort }}/news-archives/2020">{{ site.prismicData.single.base.fragments.news_years_archives_title.text }} 2020</a>
+          {% if news2020 > 90 %}
+            <a href="/{{ site.langShort }}/news-archives/2020">{{ site.prismicData.single.base.fragments.news_years_archives_title.text }} 2020 (1)</a>
+            <a href="/{{ site.langShort }}/news-archives/2020">{{ site.prismicData.single.base.fragments.news_years_archives_title.text }} 2020 (2)</a>
+          {% else %}
+            <a href="/{{ site.langShort }}/news-archives/2020">{{ site.prismicData.single.base.fragments.news_years_archives_title.text }} 2020</a>
+          {% endif %} 
         {% endif %}
       {% endif %}
     </div>
