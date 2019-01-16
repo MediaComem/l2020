@@ -33,9 +33,6 @@ layout: default
 	<div class="container news-content">
 		<h1>{{page.document.fragments.title.text}}</h1>
 		<p class="p_news">{{ page.document.fragments.body.html | markdownify | newline_to_br | remove: '<p>' | remove: '</p>'}}</p>
-		{% for post in document.fragments.img_gallery.group_documents %}
-			<img src="{{ document.fragments.img_gallery.getImage("img_element").url }}"/>
-		{% endfor %}
     
     <p class="news_date" style="width: 50%; float: left;">
 			<time pubdate datetime="{{page.document.fragments.publication_date.date | date_to_xmlschema}}" title="{{page.document.fragments.publication_date.date | date_to_xmlschema | date: '%d.%m'}}">{{page.document.fragments.publication_date.date | date_to_xmlschema | date: "%d.%m.%Y"}}</time>
