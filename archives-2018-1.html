@@ -9,7 +9,7 @@ layout: default
 	      {% for news in newsordered %}
 	      	{% capture newyear %}{{ news.fragments.publication_date.date | date: '%Y' }}{% endcapture %}
           {% capture newmonth %}{{ news.fragments.publication_date.date | date: '%n' }}{% endcapture %}
-	      	{% if newyear == '2018' and newmonth <= '03' %}
+	      	{% if newyear == '2018' and newmonth <= '3' %}
 	        <div class="come-in-module col-sm-6 col-md-4">
            <a class="wrap_a" href="/{{ site.langShort }}/news/{{ news.slug }}">
               <div class="new col-md-12">
