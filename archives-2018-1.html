@@ -8,7 +8,7 @@ layout: default
       	{% assign newsinverted = site.prismicData.collections.news | sort:'fragments.publication_date.date' | reverse  %}
 	      {% for news in newsinverted %}
 	      	{% capture newyear %}{{ news.fragments.publication_date.date | date: '%Y' }}{% endcapture %}
-          {% capture newmonth %}{{ news.fragments.publication_date.date | date: '%m' }}{% endcapture %}
+          {% capture newmonth %}{{ news.fragments.publication_date.date | date: '%n' }}{% endcapture %}
 	      	{% if newyear == '2018' %}
           	{% if newmonth <= '02' %}
 	        <div class="come-in-module col-sm-6 col-md-4">
