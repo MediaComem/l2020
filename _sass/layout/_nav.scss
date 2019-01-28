@@ -12,10 +12,6 @@
     color: #000000;
 }
 
-.links_social {
-    padding-right: 5px !important;
-}
-
 .navbar-custom {
     padding: 17px 0;
 }
@@ -167,7 +163,8 @@
 	margin-top: 10px !important;
     }
     .smartphone {
-	margin-left: 20px !important;	    
+	margin-left: 0px !important;
+	padding-left: 0px !important;
     }
 }
 @media (max-width:440px) {
