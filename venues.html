@@ -4,27 +4,27 @@ layout: default
 
 {% assign document = site.prismicData.single.page_venues %}
 
-<div class="key_numbers">
-  <div class="container fade-in-module">
-    <h1>{{ about_data.singleevent }}</h1>
-    <div class="singleevent_img">
-        {% if site.lang == "fr-fr" %}
-          <img src="/images/about/L2020_VMP_FR.png" width="60%">
-        {% elsif site.lang == "de-de" %}
-          <img src="/images/about/L2020_VMP_GE.png" width="60%">
-        {% elsif site.lang == "es-es" %}
-          <img src="/images/about/L2020_VMP_ES.png" width="60%">
-        {% else %}
-          <img src="/images/about/L2020_VMP_EN.png" width="60%">
-        {% endif %}
-    </div>
-  </div>
-</div>
 <div class="sites" id="sites1">
   <div class="container fade-in-module">
     <h1>
       {{document.fragments.title_section_1.text}}
     </h1>
+    <div class="key_numbers">
+      <div class="container fade-in-module">
+        <h1>{{ about_data.singleevent }}</h1>
+        <div class="singleevent_img">
+          {% if site.lang == "fr-fr" %}
+            <img src="/images/about/L2020_VMP_FR.png" width="60%">
+          {% elsif site.lang == "de-de" %}
+            <img src="/images/about/L2020_VMP_GE.png" width="60%">
+          {% elsif site.lang == "es-es" %}
+            <img src="/images/about/L2020_VMP_ES.png" width="60%">
+          {% else %}
+            <img src="/images/about/L2020_VMP_EN.png" width="60%">
+          {% endif %}
+        </div>
+      </div>
+    </div>
     <p class="discover_1 discover_p fade-in-module">
       {{ document.fragments.content_section_1.text | markdownify | remove: '<p>' | remove: '</p>' | newline_to_br}}
     </p>
