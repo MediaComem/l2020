@@ -290,6 +290,25 @@ layout: default
 		    <img src="/images/cio-partners/Fond_Du_Sport_Vaudois.png" alt="Fond du Sport Vaudois">
 		</a>
             </li>
+	    {% if site.lang == "fr-fr" %}
+		<li>
+               	    <a target="_blank" rel="noopener noreferrer" href="https://www.region-du-leman.ch/fr/Z10386/les-jeux-olympiques-de-la-jeunesse-lausanne-2020">
+		    	<img src="/images/cio-partners/VAUD-FR.png" alt="Région du Léman">
+		    </a>
+            	</li>
+            {% elsif site.lang == "de-de" %}
+		<li>
+               	    <a target="_blank" rel="noopener noreferrer" href="https://www.region-du-leman.ch/de/Z10386/die-olympischen-jugend-winterspiele-lausanne-2020">
+		    	<img src="/images/cio-partners/VAUD-DE.png" alt="Genferseegebiet">
+		    </a>
+            	</li>
+            {% else %}
+                <li>
+               	    <a target="_blank" rel="noopener noreferrer" href="https://www.region-du-leman.ch/en/Z10386/the-2020-youth-olympic-games-lausanne">
+		    	<img src="/images/cio-partners/VAUD-EN.png" alt="Lake Geneva Region">
+		    </a>
+            	</li>
+          {% endif %}
         </ul>
 	<h4 class="partners-title">INSTITUTIONAL PARTNERS</h4>
 	<hr class="hr-line" style="margin-left: 188px;">
@@ -340,6 +359,7 @@ layout: default
 		    <img src="/images/cio-partners/HEIG-VD.png" alt="HEIG-VD">
 		</a>
             </li>
+		
         </ul>
     </div>
 </div>
